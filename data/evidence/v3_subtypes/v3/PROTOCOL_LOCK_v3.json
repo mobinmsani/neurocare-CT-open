@@ -1,0 +1,6 @@
+{"locked_before_training":"2026-10-22","model":"UNetV2 architecture, 6-class softmax head (background, EDH, IPH, IVH, SAH, SDH per official BHSD ontology), all layers initialised from v2 except the output layer",
+ "training_data":"Same 92 BHSD training scans as v1/v2; no test or CQ500 data",
+ "epochs":10,"sampling":"all positive slices + equal random negatives per epoch","loss":"cross-entropy (class weights bg 1, lesions 3) + mean soft Dice over 5 lesion classes",
+ "optimizer":"AdamW lr 1e-3 cosine, seed 20261022","augmentation":"as v2","checkpoint":"final epoch only, no selection on test",
+ "inference":"argmax over 6 classes, flip TTA, no post-mask; any-ICH = union of lesion classes",
+ "primary_endpoints":["per-class Dice and volume agreement on BHSD test (96)","per-subtype presence AUC on BHSD test using class volume","external per-subtype AUC on CQ500 (reader majority) using class volume; any-ICH AUC vs v2"]}

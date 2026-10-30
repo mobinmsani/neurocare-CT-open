@@ -1,0 +1,8 @@
+{
+  "rule": "flag if 1st-percentile stored intensity > -500 (air absent => non-HU encoding suspected)",
+  "derived_from": "physical HU definition; feasibility checked on training only",
+  "training_scans": 92,
+  "training_flagged": 0,
+  "test_outcomes_viewed_before_lock": "aggregate Dice known; per-case QC-outcome link not used",
+  "action": "abstain from quantitative output, do not rescale"
+}

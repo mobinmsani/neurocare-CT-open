@@ -1,0 +1,256 @@
+{
+ "bhsd": [
+  {
+   "Model": "v1",
+   "Cohort": "all 96",
+   "n": 96,
+   "Mean Dice (95% CI)": "0.436 (0.375\u20130.493)",
+   "Median Dice": "0.434",
+   "Zero-Dice": 14,
+   "MAE mL": "23.34",
+   "Median AE mL": "4.89",
+   "RMSE mL": "141.82",
+   "Median rel. error %": "38.5",
+   "ICC(A,1)": "0.054",
+   "Bias mL (LoA)": "10.72 (-267.9 to 289.3)"
+  },
+  {
+   "Model": "v1",
+   "Cohort": "QC-accepted 95",
+   "n": 95,
+   "Mean Dice (95% CI)": "0.440 (0.381\u20130.503)",
+   "Median Dice": "0.435",
+   "Zero-Dice": 13,
+   "MAE mL": "9.03",
+   "Median AE mL": "4.80",
+   "RMSE mL": "14.12",
+   "Median rel. error %": "37.7",
+   "ICC(A,1)": "0.910",
+   "Bias mL (LoA)": "-3.72 (-30.6 to 23.1)"
+  },
+  {
+   "Model": "v2_prespecified",
+   "Cohort": "all 96",
+   "n": 96,
+   "Mean Dice (95% CI)": "0.390 (0.330\u20130.455)",
+   "Median Dice": "0.394",
+   "Zero-Dice": 20,
+   "MAE mL": "13.86",
+   "Median AE mL": "6.34",
+   "RMSE mL": "23.30",
+   "Median rel. error %": "47.6",
+   "ICC(A,1)": "0.738",
+   "Bias mL (LoA)": "-9.03 (-51.3 to 33.3)"
+  },
+  {
+   "Model": "v2_prespecified",
+   "Cohort": "QC-accepted 95",
+   "n": 95,
+   "Mean Dice (95% CI)": "0.395 (0.330\u20130.456)",
+   "Median Dice": "0.421",
+   "Zero-Dice": 19,
+   "MAE mL": "13.59",
+   "Median AE mL": "5.86",
+   "RMSE mL": "23.06",
+   "Median rel. error %": "44.3",
+   "ICC(A,1)": "0.745",
+   "Bias mL (LoA)": "-9.55 (-50.9 to 31.8)"
+  },
+  {
+   "Model": "v2_nomask_posthoc",
+   "Cohort": "all 96",
+   "n": 96,
+   "Mean Dice (95% CI)": "0.461 (0.404\u20130.519)",
+   "Median Dice": "0.515",
+   "Zero-Dice": 11,
+   "MAE mL": "10.71",
+   "Median AE mL": "4.79",
+   "RMSE mL": "18.03",
+   "Median rel. error %": "38.5",
+   "ICC(A,1)": "0.858",
+   "Bias mL (LoA)": "-1.29 (-36.7 to 34.1)"
+  },
+  {
+   "Model": "v2_nomask_posthoc",
+   "Cohort": "QC-accepted 95",
+   "n": 95,
+   "Mean Dice (95% CI)": "0.466 (0.411\u20130.524)",
+   "Median Dice": "0.525",
+   "Zero-Dice": 10,
+   "MAE mL": "10.28",
+   "Median AE mL": "4.75",
+   "RMSE mL": "17.34",
+   "Median rel. error %": "38.4",
+   "ICC(A,1)": "0.869",
+   "Bias mL (LoA)": "-1.84 (-35.8 to 32.1)"
+  }
+ ],
+ "pair": [
+  {
+   "Comparison": "v2_prespecified \u2212 v1 (BHSD test, 96 scans)",
+   "Mean \u0394Dice": "-0.045",
+   "95% bootstrap CI": "-0.084 to -0.010",
+   "Wilcoxon p": "0.553",
+   "Scans improved": "47/96"
+  },
+  {
+   "Comparison": "v2_nomask_posthoc \u2212 v1 (BHSD test, 96 scans)",
+   "Mean \u0394Dice": "+0.026",
+   "95% bootstrap CI": "+0.011 to +0.041",
+   "Wilcoxon p": "0.0001",
+   "Scans improved": "58/96"
+  },
+  {
+   "Comparison": "v2_prespecified \u2212 v1 (Seg-CQ500, 43 scans)",
+   "Mean \u0394Dice": "+0.006",
+   "95% bootstrap CI": "-0.042 to +0.054",
+   "Wilcoxon p": "0.876",
+   "Scans improved": "19/43"
+  },
+  {
+   "Comparison": "v2_nomask (confirmation) \u2212 v1 (Seg-CQ500, 43 scans)",
+   "Mean \u0394Dice": "+0.028",
+   "95% bootstrap CI": "-0.017 to +0.072",
+   "Wilcoxon p": "0.218",
+   "Scans improved": "24/43"
+  }
+ ],
+ "seg_means": {
+  "v1": 0.4653221261373057,
+  "v2": 0.47088008984951607,
+  "v2_nomask": 0.49287702486902524
+ },
+ "strata": [
+  {
+   "Stratum": "<10 mL",
+   "n": 37,
+   "v1 mean Dice": "0.212",
+   "v2-nomask mean Dice": "0.239",
+   "v1 zero-Dice": 13,
+   "v2-nomask zero-Dice": 10
+  },
+  {
+   "Stratum": "10\u2013<30 mL",
+   "n": 23,
+   "v1 mean Dice": "0.489",
+   "v2-nomask mean Dice": "0.524",
+   "v1 zero-Dice": 0,
+   "v2-nomask zero-Dice": 0
+  },
+  {
+   "Stratum": "\u226530 mL",
+   "n": 36,
+   "v1 mean Dice": "0.631",
+   "v2-nomask mean Dice": "0.649",
+   "v1 zero-Dice": 1,
+   "v2-nomask zero-Dice": 1
+  },
+  {
+   "Stratum": "EDH present",
+   "n": 13,
+   "v1 mean Dice": "0.404",
+   "v2-nomask mean Dice": "0.437",
+   "v1 zero-Dice": 3,
+   "v2-nomask zero-Dice": 3
+  },
+  {
+   "Stratum": "IPH present",
+   "n": 63,
+   "v1 mean Dice": "0.529",
+   "v2-nomask mean Dice": "0.554",
+   "v1 zero-Dice": 3,
+   "v2-nomask zero-Dice": 2
+  },
+  {
+   "Stratum": "IVH present",
+   "n": 54,
+   "v1 mean Dice": "0.488",
+   "v2-nomask mean Dice": "0.504",
+   "v1 zero-Dice": 4,
+   "v2-nomask zero-Dice": 3
+  },
+  {
+   "Stratum": "SAH present",
+   "n": 51,
+   "v1 mean Dice": "0.415",
+   "v2-nomask mean Dice": "0.439",
+   "v1 zero-Dice": 4,
+   "v2-nomask zero-Dice": 2
+  },
+  {
+   "Stratum": "SDH present",
+   "n": 35,
+   "v1 mean Dice": "0.406",
+   "v2-nomask mean Dice": "0.434",
+   "v1 zero-Dice": 3,
+   "v2-nomask zero-Dice": 4
+  }
+ ],
+ "lat": [
+  {
+   "Output": "Expert edema mask + auto midline",
+   "Evaluable patients": 108,
+   "Abstained/no mask": 3,
+   "Correct side": 106,
+   "Accuracy (95% CI)": "0.981 (0.935\u20130.995)"
+  },
+  {
+   "Output": "v1 hemorrhage + auto midline",
+   "Evaluable patients": 109,
+   "Abstained/no mask": 2,
+   "Correct side": 102,
+   "Accuracy (95% CI)": "0.936 (0.873\u20130.969)"
+  },
+  {
+   "Output": "v2-nomask hemorrhage + auto midline",
+   "Evaluable patients": 109,
+   "Abstained/no mask": 2,
+   "Correct side": 106,
+   "Accuracy (95% CI)": "0.972 (0.922\u20130.991)"
+  }
+ ],
+ "midline": {
+  "estimated": 120,
+  "n": 120,
+  "angle_median": 1.25,
+  "angle_IQR": [
+   -7.0,
+   8.0
+  ],
+  "at_search_bound": 17,
+  "symmetry_median": 0.9521133187988292
+ },
+ "edema": {
+  "n": 37,
+  "dice": 0.3364552748535831,
+  "ci": [
+   0.28026587757013705,
+   0.3878184934388705
+  ],
+  "median": 0.3780332056194125,
+  "MAE_ml": 3.696337884075871,
+  "median_AE_ml": 3.0851364135742188,
+  "RMSE_ml": 4.841830817307869,
+  "rel_err_median_pct": 107.43961352657006,
+  "ICC_A1": 0.2575152780140861,
+  "bias_ml": 1.9704038812253646,
+  "LoA_low": -6.817784728901917,
+  "LoA_high": 10.758592491352646
+ },
+ "blood_edema": {
+  "n": 112,
+  "spearman": 0.3904397444220453,
+  "p": 2.0824690622282875e-05,
+  "median_blood": 14.452018737792967,
+  "median_edema": 2.368181743621826
+ },
+ "icv": {
+  "n": 112,
+  "median": 980.2708272171019,
+  "IQR": [
+   866.1825883997985,
+   1104.482215976715
+  ],
+  "normalized_burden_median_pct": 1.4298530947059875
+ }
+}

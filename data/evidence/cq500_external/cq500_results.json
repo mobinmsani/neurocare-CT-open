@@ -1,0 +1,256 @@
+{
+ "n_released": 491,
+ "n_processed": 489,
+ "n_errors": 2,
+ "errors": [
+  "CQ500-CT-120: BadZipFile('File is not a zip file')",
+  "CQ500-CT-336: RuntimeError('no non-contrast soft series')"
+ ],
+ "qc_flagged": 0,
+ "bone_kernel_available": 135,
+ "prevalence": {
+  "ICH": 205,
+  "IPH": 134,
+  "IVH": 28,
+  "SDH": 53,
+  "EDH": 13,
+  "SAH": 60,
+  "BleedLocation-Left": 131,
+  "BleedLocation-Right": 129,
+  "ChronicBleed": 19,
+  "Fracture": 39,
+  "CalvarialFracture": 34,
+  "OtherFracture": 12,
+  "MassEffect": 127,
+  "MidlineShift": 65
+ },
+ "ich_rule": {
+  "tp": 168,
+  "fn": 37,
+  "tn": 169,
+  "fp": 115,
+  "sens": 0.8195121951219512,
+  "sens_ci": [
+   0.7611433591701706,
+   0.8661263035790134
+  ],
+  "spec": 0.5950704225352113,
+  "spec_ci": [
+   0.5370782367739505,
+   0.6505249449760119
+  ],
+  "ppv": 0.5936395759717314,
+  "npv": 0.8203883495145631
+ },
+ "table_detection": [
+  {
+   "Finding": "ICH",
+   "Positives": 205,
+   "N": 489,
+   "AUC (95% CI)": "0.806 (0.769\u20130.844)"
+  },
+  {
+   "Finding": "IPH",
+   "Positives": 134,
+   "N": 489,
+   "AUC (95% CI)": "0.784 (0.737\u20130.830)"
+  },
+  {
+   "Finding": "IVH",
+   "Positives": 28,
+   "N": 489,
+   "AUC (95% CI)": "0.960 (0.938\u20130.979)"
+  },
+  {
+   "Finding": "SDH",
+   "Positives": 53,
+   "N": 489,
+   "AUC (95% CI)": "0.683 (0.610\u20130.752)"
+  },
+  {
+   "Finding": "EDH",
+   "Positives": 13,
+   "N": 489,
+   "AUC (95% CI)": "0.805 (0.712\u20130.893)"
+  },
+  {
+   "Finding": "SAH",
+   "Positives": 60,
+   "N": 489,
+   "AUC (95% CI)": "0.808 (0.742\u20130.868)"
+  },
+  {
+   "Finding": "ChronicBleed",
+   "Positives": 19,
+   "N": 489,
+   "AUC (95% CI)": "0.492 (0.380\u20130.611)"
+  }
+ ],
+ "sens_by_subtype": {
+  "IPH": {
+   "k": 112,
+   "n": 134,
+   "ci": [
+    0.7639157607163982,
+    0.8890075947873104
+   ]
+  },
+  "IVH": {
+   "k": 28,
+   "n": 28,
+   "ci": [
+    0.8793527963418923,
+    1.0
+   ]
+  },
+  "SDH": {
+   "k": 44,
+   "n": 53,
+   "ci": [
+    0.7077446317626587,
+    0.9080015822777624
+   ]
+  },
+  "EDH": {
+   "k": 13,
+   "n": 13,
+   "ci": [
+    0.7718981569447083,
+    1.0
+   ]
+  },
+  "SAH": {
+   "k": 54,
+   "n": 60,
+   "ci": [
+    0.7985030550748896,
+    0.9533578005427642
+   ]
+  },
+  "ChronicBleed": {
+   "k": 12,
+   "n": 19,
+   "ci": [
+    0.4103915749815672,
+    0.8085072762372616
+   ]
+  }
+ },
+ "laterality": {
+  "unilateral_ich": 134,
+  "evaluable": 131,
+  "correct": 116,
+  "ci": [
+   0.819656697703869,
+   0.9293703087985753
+  ]
+ },
+ "midline_estimated": 487,
+ "table_midline_mass": [
+  {
+   "Reader label": "MidlineShift",
+   "Score": "CSF-centroid offset, max |mm|",
+   "Positives": 62,
+   "N": 452,
+   "AUC (95% CI)": "0.894 (0.855\u20130.931)"
+  },
+  {
+   "Reader label": "MidlineShift",
+   "Score": "CSF-centroid offset, median |mm|",
+   "Positives": 62,
+   "N": 452,
+   "AUC (95% CI)": "0.904 (0.851\u20130.947)"
+  },
+  {
+   "Reader label": "MidlineShift",
+   "Score": "Predicted hemorrhage volume",
+   "Positives": 65,
+   "N": 489,
+   "AUC (95% CI)": "0.852 (0.798\u20130.904)"
+  },
+  {
+   "Reader label": "MassEffect",
+   "Score": "CSF-centroid offset, max |mm|",
+   "Positives": 118,
+   "N": 452,
+   "AUC (95% CI)": "0.815 (0.768\u20130.859)"
+  },
+  {
+   "Reader label": "MassEffect",
+   "Score": "CSF-centroid offset, median |mm|",
+   "Positives": 118,
+   "N": 452,
+   "AUC (95% CI)": "0.845 (0.795\u20130.891)"
+  },
+  {
+   "Reader label": "MassEffect",
+   "Score": "Predicted hemorrhage volume",
+   "Positives": 127,
+   "N": 489,
+   "AUC (95% CI)": "0.851 (0.811\u20130.888)"
+  }
+ ],
+ "bhx_box_hit": {
+  "Subarachnoid": {
+   "hit": 822,
+   "boxes": 1734,
+   "rate": 0.4740484429065744,
+   "ci": [
+    0.45062913963568646,
+    0.4975824810321579
+   ],
+   "scans": 118
+  },
+  "Intraventricular": {
+   "hit": 416,
+   "boxes": 558,
+   "rate": 0.7455197132616488,
+   "ci": [
+    0.7077850137643651,
+    0.7798969236357847
+   ],
+   "scans": 43
+  },
+  "Intraparenchymal": {
+   "hit": 966,
+   "boxes": 1262,
+   "rate": 0.7654516640253566,
+   "ci": [
+    0.7412899867110329,
+    0.7880021458907082
+   ],
+   "scans": 126
+  },
+  "Subdural": {
+   "hit": 694,
+   "boxes": 1736,
+   "rate": 0.39976958525345624,
+   "ci": [
+    0.376971964110142,
+    0.42300982733570003
+   ],
+   "scans": 89
+  },
+  "Chronic": {
+   "hit": 114,
+   "boxes": 687,
+   "rate": 0.16593886462882096,
+   "ci": [
+    0.13999223998630628,
+    0.19560075267655597
+   ],
+   "scans": 31
+  },
+  "Epidural": {
+   "hit": 39,
+   "boxes": 66,
+   "rate": 0.5909090909090909,
+   "ci": [
+    0.4704897153828895,
+    0.7013276542077269
+   ],
+   "scans": 6
+  }
+ },
+ "bhx_scans_matched": 224
+}

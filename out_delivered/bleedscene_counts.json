@@ -1,0 +1,61 @@
+{
+ "BHSD": {
+  "volumes": 100,
+  "any_instance": 100,
+  "IPH": 70,
+  "IVH": 55,
+  "EDH": 2,
+  "SDH": 29,
+  "SAH": 57,
+  "independent_of_RSNA2019": false
+ },
+ "CQ500": {
+  "volumes": 154,
+  "any_instance": 154,
+  "IPH": 96,
+  "IVH": 37,
+  "EDH": 3,
+  "SDH": 56,
+  "SAH": 65,
+  "independent_of_RSNA2019": true
+ },
+ "HemSeg200": {
+  "volumes": 175,
+  "any_instance": 175,
+  "IPH": 113,
+  "IVH": 88,
+  "EDH": 4,
+  "SDH": 17,
+  "SAH": 14,
+  "independent_of_RSNA2019": false
+ },
+ "INSTANCE2022": {
+  "volumes": 120,
+  "any_instance": 120,
+  "IPH": 103,
+  "IVH": 45,
+  "EDH": 0,
+  "SDH": 21,
+  "SAH": 51,
+  "independent_of_RSNA2019": true
+ },
+ "PhysioNet": {
+  "volumes": 25,
+  "any_instance": 25,
+  "IPH": 9,
+  "IVH": 4,
+  "EDH": 8,
+  "SDH": 17,
+  "SAH": 7,
+  "independent_of_RSNA2019": true
+ },
+ "independent_total": {
+  "volumes": 299,
+  "any_instance": 299,
+  "IPH": 208,
+  "IVH": 86,
+  "EDH": 11,
+  "SDH": 94,
+  "SAH": 123
+ }
+}

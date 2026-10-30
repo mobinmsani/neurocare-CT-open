@@ -1,0 +1,1 @@
+{"key": "seg_3", "source": "Figure_4_Real_Segmentation.svg", "case": "CQ500-CT-208", "shape": [275, 275], "layers": {"ref": 91, "pred_v1": 44, "errors": {"TP": 0, "FP": 48, "FN": 99}}, "overlays": {}}

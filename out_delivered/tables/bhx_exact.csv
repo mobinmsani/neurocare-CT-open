@@ -1,0 +1,8 @@
+label,bhx_label,bhx_scans,majority_pos,both,bhx_only,majority_only,neither,bhx_only_no_read,bhx_only_one_read,bhx_only_ich_majority_negative,lower_bound_v1
+ICH,any,226,205,197,29,8,255,5,24,29,21
+IPH,Intraparenchymal,127,134,120,7,14,348,1,6,3,0
+IVH,Intraventricular,43,28,26,17,2,444,6,11,3,15
+SAH,Subarachnoid,118,60,60,58,0,371,35,23,16,58
+SDH,Subdural,90,53,48,42,5,394,16,26,9,37
+EDH,Epidural,6,13,6,0,7,476,0,0,0,0
+ChronicBleed,Chronic,32,19,15,17,4,453,8,9,6,13

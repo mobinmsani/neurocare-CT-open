@@ -1,0 +1,18 @@
+endpoint,v1_capacity,v1_limiting,v2_capacity,v2_unmet,changed
+Any intracranial hemorrhage (scan level),adequate,–,adequate,–,False
+Hemorrhage subtype presence (5 subtypes),limited,adequate only for IPH and SAH; IVH 28 positives; SDH kappa 0.542; EDH 13 positives,limited,adequate only for IPH and SAH; IVH: R4 28 positives; SDH: R2 kappa 0.542 < 0.61; EDH: R4 13 positives,False
+Hemorrhage localization (box level),limited,construct (partial); <35 positives; reliability unknown,limited,R1 construct partial; R2 reader agreement not reported,False
+Hemorrhage side,adequate,–,limited,R2 kappa among hemorrhage-positive scans 0.543 < 0.61,True
+Voxel segmentation of hemorrhage,limited,no negatives; reliability unknown,limited,R3 no negatives,False
+Total hemorrhage volume,limited,no negatives; reliability unknown,limited,R3 no negatives,False
+"Compartment volume (intraparenchymal, epidural)",limited,<35 positives; reliability unknown,limited,"R3 IPH >=30 mL (ICH score, MISTIE III): 34 cases; IPH 30-80 mL (ENRICH): 29 cases; EDH >30 mL (evacuation): 2 cases; R4 EDH 23 measured cases",False
+Volume change on serial or postoperative scans,none,no open reference,none,R1 no reference measures the endpoint,False
+Perihematomal edema volume,limited,reliability unknown,limited,R2 one annotation per case,False
+Midline shift >5 mm (presence),limited,reliability kappa below 0.61,limited,R2 kappa 0.595 < 0.61,False
+Mass effect (presence),adequate,–,adequate,–,False
+Midline shift magnitude (mm),none,no open reference,none,R1 no reference measures the endpoint,False
+Subdural hematoma thickness (mm),none,no open reference,none,R1 no reference measures the endpoint,False
+"Basal cisterns, ventricles, herniation",limited,construct (partial); reliability unknown,limited,R1 construct partial; R2 reader agreement not reported,False
+Skull fracture (scan level),limited,reliability kappa below 0.61,limited,R2 kappa 0.437 < 0.61,False
+Fracture localization,none,no open reference,none,R1 no reference measures the endpoint,False
+Outcome or added prognostic value,none,no open reference,none,R1 no reference measures the endpoint,False

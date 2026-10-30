@@ -1,0 +1,10 @@
+{"model":"UNetV2 multi-window 2.5D (9 ch), widths 12-24-48-96-128, input 160x160",
+ "training_data":"same 92 geometry-qualified BHSD official-train scans as v1; no test, Seg-CQ500 or MR-BHSD data used",
+ "epochs":22,"batch_size":16,"optimizer":"AdamW lr 0.002 wd 1e-4, cosine","seed":20261021,
+ "loss":"BCE(pos_weight 5)+soft Dice","sampling":"each epoch: all hemorrhage-positive slices + equal number of random negative slices",
+ "augmentation":"horizontal flip, random affine (rotation +-10 deg, scale 0.9-1.1), HU offset +-5, Gaussian noise sd 3 HU",
+ "inference":"flip TTA; threshold 0.5; intracranial post-mask (dilated 2 px) from HU>300 bone shell; QC gate p01>-500 => abstain",
+ "checkpoint":"fixed final epoch; no validation/test-based selection or threshold tuning",
+ "primary_comparison":"paired per-scan Dice v2 vs v1 on all 96 BHSD test scans; secondary: volume ICC, Seg-CQ500 43, MR-BHSD 43",
+ "locked_at":"2026-10-21, before v2 training",
+ "known_bias":"design choices informed by v1 failure analysis (aggregate test results known); not untouched-holdout model selection"}

@@ -1,0 +1,373 @@
+{
+"fx_01.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_02.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_03.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_04.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_05.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_06.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_07.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"fx_08.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_01.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_02.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_03.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_04.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_05.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_06.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_07.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"gal_08.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"mid_01.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"mid_02.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"mid_03.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"mid_04.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"phe_01.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"phe_01_mask.npy": [
+[
+256,
+256
+],
+"bool"
+],
+"phe_02.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"phe_02_mask.npy": [
+[
+256,
+256
+],
+"bool"
+],
+"phe_03.npy": [
+[
+256,
+256
+],
+"uint8"
+],
+"phe_03_mask.npy": [
+[
+256,
+256
+],
+"bool"
+],
+"seg_1_ct.npy": [
+[
+276,
+275
+],
+"uint8"
+],
+"seg_1_errors.npy": [
+[
+276,
+275
+],
+"uint8"
+],
+"seg_1_pred_v1.npy": [
+[
+276,
+275
+],
+"bool"
+],
+"seg_1_ref.npy": [
+[
+276,
+275
+],
+"bool"
+],
+"seg_2_ct.npy": [
+[
+275,
+275
+],
+"uint8"
+],
+"seg_2_errors.npy": [
+[
+275,
+275
+],
+"uint8"
+],
+"seg_2_pred_v1.npy": [
+[
+275,
+275
+],
+"bool"
+],
+"seg_2_ref.npy": [
+[
+275,
+275
+],
+"bool"
+],
+"seg_3_ct.npy": [
+[
+275,
+275
+],
+"uint8"
+],
+"seg_3_errors.npy": [
+[
+275,
+275
+],
+"uint8"
+],
+"seg_3_pred_v1.npy": [
+[
+275,
+275
+],
+"bool"
+],
+"seg_3_ref.npy": [
+[
+275,
+275
+],
+"bool"
+],
+"segm_1_blast_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_1_ct.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_1_growth_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_1_refcontour.npy": [
+[
+245,
+244
+],
+"bool"
+],
+"segm_1_v1_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_2_blast_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_2_ct.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_2_growth_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_2_refcontour.npy": [
+[
+245,
+244
+],
+"bool"
+],
+"segm_2_v1_errors.npy": [
+[
+245,
+244
+],
+"uint8"
+],
+"segm_3_blast_errors.npy": [
+[
+244,
+244
+],
+"uint8"
+],
+"segm_3_ct.npy": [
+[
+244,
+244
+],
+"uint8"
+],
+"segm_3_growth_errors.npy": [
+[
+244,
+244
+],
+"uint8"
+],
+"segm_3_refcontour.npy": [
+[
+244,
+244
+],
+"bool"
+],
+"segm_3_v1_errors.npy": [
+[
+244,
+244
+],
+"uint8"
+]
+}

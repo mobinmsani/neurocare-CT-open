@@ -1,0 +1,8 @@
+{
+ "BHSD": "Open download (Hugging Face); MIT tag; re-hosts RSNA 2019 images",
+ "MR-BHSD": "Open download (Hugging Face, ungated); MIT tag (challenge document: CC BY-NC-ND); re-hosts RSNA 2019 images",
+ "Seg-CQ500": "Open download (Zenodo); CC BY 4.0",
+ "CQ500": "Open download (Academic Torrents, with click-through terms; Kaggle); CC BY-NC-SA 4.0",
+ "BHX": "Open download (PhysioNet); CC BY-SA 4.0",
+ "PHE-SICH-CT-IDS": "Open download (figshare); CC BY 4.0"
+}

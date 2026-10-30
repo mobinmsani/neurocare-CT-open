@@ -1,0 +1,144 @@
+Table3 v1 all 96                        | reported: 0.436 (0.375–0.493) med 0.434 zero 14 MAE 23.34 RMSE 141.82 ICC 0.054 bias 10.72 (-267.9 to 289.3)
+                                        | recomputed: 0.436 (0.375–0.493) 0.434 14 23.34 141.82 0.054 10.72 (-267.9 to 289.3)
+Table3 v1 QC-accepted 95                | reported: 0.440 (0.381–0.503) 0.435 13 9.03 14.12 0.910 -3.72 (-30.6 to 23.1)
+                                        | recomputed: 0.440 (0.381–0.503) 0.435 13 9.03 14.12 0.910 -3.72 (-30.6 to 23.1)
+Table3 v2_prespecified all 96           | reported: 0.390 (0.330–0.455) 0.394 20 13.86 23.30 0.738 -9.03 (-51.3 to 33.3)
+                                        | recomputed: 0.390 (0.330–0.455) 0.394 20 13.86 23.30 0.738 -9.03 (-51.3 to 33.3)
+Table3 v2_prespecified QC-accepted 95   | reported: 0.395 (0.330–0.456) 0.421 19 13.59 23.06 0.745 -9.55 (-50.9 to 31.8)
+                                        | recomputed: 0.395 (0.330–0.456) 0.421 19 13.59 23.06 0.745 -9.55 (-50.9 to 31.8)
+Table3 v2_nomask_posthoc all 96         | reported: 0.461 (0.404–0.519) 0.515 11 10.71 18.03 0.858 -1.29 (-36.7 to 34.1)
+                                        | recomputed: 0.461 (0.404–0.519) 0.515 11 10.71 18.03 0.858 -1.29 (-36.7 to 34.1)
+Table3 v2_nomask_posthoc QC-accepted 95 | reported: 0.466 (0.411–0.524) 0.525 10 10.28 17.34 0.869 -1.84 (-35.8 to 32.1)
+                                        | recomputed: 0.466 (0.411–0.524) 0.525 10 10.28 17.34 0.869 -1.84 (-35.8 to 32.1)
+Table4 v2_prespecified-v1 BHSD          | reported: -0.045 (-0.084 to -0.010) p0.553 47/96
+                                        | recomputed: -0.045 (-0.084 to -0.010) p0.553 47/96
+Table4 v2_nomask_posthoc-v1 BHSD        | reported: +0.026 (+0.011 to +0.041) p0.0001 58/96
+                                        | recomputed: +0.026 (+0.011 to +0.041) p0.0001 58/96
+Table4 v2_prespecified-v1 SegCQ500      | reported: +0.006 (-0.042 to +0.054) p0.876 19/43
+                                        | recomputed: +0.006 (-0.042 to +0.054) p0.876 19/43
+Table4 v2_nomask-v1 SegCQ500            | reported: +0.028 (-0.017 to +0.072) p0.218 24/43
+                                        | recomputed: +0.028 (-0.017 to +0.072) p0.218 24/43
+Seg means v1/v2/v2nm                    | reported: 0.465/0.471/0.493
+                                        | recomputed: 0.465/0.471/0.493
+Edema                                   | reported: 0.336 (0.280–0.388) med 0.378 MAE 3.70 RMSE 4.84 ICC 0.258 bias 1.97 (-6.8 to 10.8)
+                                        | recomputed: 0.336 (0.280–0.388) med 0.378 MAE 3.70 RMSE 4.84 ICC 0.258 bias 1.97 (-6.8 to 10.8)
+Table5 <10                              | reported: 37 0.212 0.239 13 10
+                                        | recomputed: 37 0.212 0.239 13 10
+Table5 10-<30                           | reported: 23 0.489 0.524 0 0
+                                        | recomputed: 23 0.489 0.524 0 0
+Table5 >=30                             | reported: 36 0.631 0.649 1 1
+                                        | recomputed: 36 0.631 0.649 1 1
+Table5 EDH present                      | reported: 13 0.404 0.437 3 3
+                                        | recomputed: 13 0.404 0.437 3 3
+Table5 IPH present                      | reported: 63 0.529 0.554 3 2
+                                        | recomputed: 63 0.529 0.554 3 2
+Table5 IVH present                      | reported: 54 0.488 0.504 4 3
+                                        | recomputed: 54 0.488 0.504 4 3
+Table5 SAH present                      | reported: 51 0.415 0.439 4 2
+                                        | recomputed: 51 0.415 0.439 4 2
+Table5 SDH present                      | reported: 35 0.406 0.434 3 4
+                                        | recomputed: 35 0.406 0.434 3 4
+v1 extras                               | reported: median 0.434 IoU 0.328 HD95 41.95 ASD 18.28 n93; outlier 1382.8 vs 0.11
+                                        | recomputed: 0.434 0.328 41.95 18.28 n93 empty3 [1382.794451212858, 0.1131390728364633]
+QC                                      | reported: 0/92, 1/96, 0/43
+                                        | recomputed: 0/92, 1/96, 0/43
+Table2 SegCQ500 blast_hu45_r2           | reported: 
+                                        | recomputed: n43 0.534 0.631 IoU 0.419 P 0.590 R 0.588
+Table2 SegCQ500 blast_min100mm3         | reported: 
+                                        | recomputed: n43 0.524 0.644 IoU 0.428 P 0.794 R 0.459
+Table2 SegCQ500 blast_model1            | reported: 
+                                        | recomputed: n43 0.531 0.635 IoU 0.428 P 0.743 R 0.472
+Table2 SegCQ500 lightunet25d            | reported: 
+                                        | recomputed: n43 0.465 0.498 IoU 0.358 P 0.457 R 0.591
+MR-BHSD v1 reader-avg                   | reported: 0.399 0.404 IoU 0.296
+                                        | recomputed: 0.399 0.404 0.296
+MR-BHSD rater-rater                     | reported: 0.755
+                                        | recomputed: 0.755
+PHE midline                             | reported: 120/120 sym 0.952 angle 1.25 IQR -7 to 8; 17 at bound; 60L/59R/1B
+                                        | recomputed: {'estimated': 120} sym 0.952 angle 1.25 [-7.0, 8.0] bound 17 {'L': 60, 'R': 59, 'bilateral': 1}
+CQ500 v2 AUC ICH                        | reported: 
+                                        | recomputed: 205/489 0.806 (0.769–0.844)
+CQ500 v2 AUC IPH                        | reported: 
+                                        | recomputed: 134/489 0.784 (0.737–0.830)
+CQ500 v2 AUC IVH                        | reported: 
+                                        | recomputed: 28/489 0.960 (0.938–0.979)
+CQ500 v2 AUC SDH                        | reported: 
+                                        | recomputed: 53/489 0.683 (0.610–0.752)
+CQ500 v2 AUC EDH                        | reported: 
+                                        | recomputed: 13/489 0.805 (0.712–0.893)
+CQ500 v2 AUC SAH                        | reported: 
+                                        | recomputed: 60/489 0.808 (0.742–0.868)
+CQ500 v2 AUC ChronicBleed               | reported: 
+                                        | recomputed: 19/489 0.492 (0.380–0.611)
+CQ500 rule                              | reported: 168/205 0.820 (0.761–0.866); 169/284 0.595 (0.537–0.651); PPV 0.594 NPV 0.820
+                                        | recomputed: 168/205 0.820 (0.761–0.866); 169/284 0.595 (0.537–0.651); PPV 0.594 NPV 0.820
+CQ500 sens by subtype                   | reported: IPH 112/134 IVH 28/28 SDH 44/53 EDH 13/13 SAH 54/60 CB 12/19
+                                        | recomputed: {'IPH': (112, 134), 'IVH': (28, 28), 'SDH': (44, 53), 'EDH': (13, 13), 'SAH': (54, 60), 'ChronicBleed': (12, 19)}
+CQ500 MidlineShift max                  | reported: 
+                                        | recomputed: 62/452 0.894 (0.855–0.931)
+CQ500 MidlineShift vol                  | reported: 
+                                        | recomputed: 65/489 0.852 (0.798–0.904)
+CQ500 MassEffect max                    | reported: 
+                                        | recomputed: 118/452 0.815 (0.768–0.859)
+CQ500 MassEffect vol                    | reported: 
+                                        | recomputed: 127/489 0.851 (0.811–0.888)
+CQ500 prevalence                        | reported: ICH205 IPH134 SDH53 SAH60 IVH28 EDH13 CB19 Fx39 ME127 MLS65
+                                        | recomputed: {'ICH': 205, 'IPH': 134, 'IVH': 28, 'SDH': 53, 'EDH': 13, 'SAH': 60, 'BleedLocation-Left': 131, 'BleedLocation-Right': 129, 'ChronicBleed': 19, 'Fracture': 39, 'CalvarialFracture': 34, 'OtherFracture': 12, 'MassEffect': 127, 'MidlineShift': 65}
+CQ500 misc                              | reported: midline 487; proxy 452; max 37; bone 135; EDH+Fx 11; Fx+ICH 31; max FP 90.0; unilateral 134
+                                        | recomputed: {'midline_est': 487, 'proxy_n': 452, 'proxy_max': np.float64(37.331368509513744), 'bone': 135, 'qc_flag': 0, 'edh_with_fx': 11, 'fx_with_ich': 31, 'max_fp_volume': 90.031, 'uni': 134}
+CQ500 excl SegCQ500 (v2)                | reported: 446/164: AUC 0.783; 128/164 0.780; 167/282 0.592
+                                        | recomputed: 446/164: AUC 0.783; (128, 164); (167, 282)
+BHSD v3 any                             | reported: 0.390 (0.334–0.450) Δ-0.072 p<0.001 zero 14
+                                        | recomputed: 0.390 (0.334–0.450) Δ-0.072 (-0.109–-0.038) p7.91e-06 zero 14
+BHSD v3 EDH                             | reported: 
+                                        | recomputed: n13 Dice 0.000 AUC 0.500 (0.500–0.500) MAE 2.6 predvox>0 in 0
+BHSD v3 IPH                             | reported: 
+                                        | recomputed: n63 Dice 0.391 AUC 0.759 (0.655–0.855) MAE 8.4 predvox>0 in 74
+BHSD v3 IVH                             | reported: 
+                                        | recomputed: n54 Dice 0.235 AUC 0.705 (0.599–0.810) MAE 8.3 predvox>0 in 93
+BHSD v3 SAH                             | reported: 
+                                        | recomputed: n51 Dice 0.000 AUC 0.500 (0.500–0.500) MAE 4.8 predvox>0 in 0
+BHSD v3 SDH                             | reported: 
+                                        | recomputed: n35 Dice 0.000 AUC 0.500 (0.500–0.500) MAE 6.1 predvox>0 in 0
+BHSD v3b any                            | reported: 0.446 (0.390–0.500) Δ-0.016 (-0.036–0.006) p0.020 zero 6
+                                        | recomputed: 0.446 (0.390–0.500) Δ-0.016 (-0.036–0.006) p0.0204 zero 6
+BHSD v3b EDH                            | reported: 
+                                        | recomputed: n13 Dice 0.078 AUC 0.652 (0.476–0.834) MAE 2.9 predvox>0 in 52
+BHSD v3b IPH                            | reported: 
+                                        | recomputed: n63 Dice 0.405 AUC 0.785 (0.684–0.876) MAE 10.6 predvox>0 in 67
+BHSD v3b IVH                            | reported: 
+                                        | recomputed: n54 Dice 0.287 AUC 0.746 (0.642–0.837) MAE 2.8 predvox>0 in 88
+BHSD v3b SAH                            | reported: 
+                                        | recomputed: n51 Dice 0.139 AUC 0.785 (0.689–0.873) MAE 5.9 predvox>0 in 94
+BHSD v3b SDH                            | reported: 
+                                        | recomputed: n35 Dice 0.199 AUC 0.704 (0.590–0.809) MAE 6.0 predvox>0 in 88
+CQ500 v3b all ANY                       | reported: 
+                                        | recomputed: 205/489 AUC 0.818 (0.778–0.856) AP 0.778 sens 190/205 spec 91/284
+CQ500 v3b all EDH                       | reported: 
+                                        | recomputed: 13/489 AUC 0.770 (0.603–0.918) AP 0.172 sens 4/13 spec 461/476
+CQ500 v3b all IPH                       | reported: 
+                                        | recomputed: 134/489 AUC 0.794 (0.746–0.840) AP 0.688 sens 76/134 spec 331/355
+CQ500 v3b all IVH                       | reported: 
+                                        | recomputed: 28/489 AUC 0.948 (0.904–0.982) AP 0.630 sens 25/28 spec 423/461
+CQ500 v3b all SAH                       | reported: 
+                                        | recomputed: 60/489 AUC 0.834 (0.765–0.900) AP 0.599 sens 51/60 spec 212/429
+CQ500 v3b all SDH                       | reported: 
+                                        | recomputed: 53/489 AUC 0.820 (0.750–0.882) AP 0.483 sens 45/53 spec 282/436
+CQ500 v3b-v2 all                        | reported: 0.011 (-0.017–0.039)
+                                        | recomputed: 0.011 (-0.017–0.039) v2 0.806
+CQ500 v3b excl ANY                      | reported: 
+                                        | recomputed: 164/446 AUC 0.801 (0.756–0.843) AP 0.736 sens 149/164 spec 91/282
+CQ500 v3b excl EDH                      | reported: 
+                                        | recomputed: 7/446 AUC 0.875 (0.673–0.982) AP 0.209 sens 3/7 spec 426/439
+CQ500 v3b excl IPH                      | reported: 
+                                        | recomputed: 103/446 AUC 0.763 (0.706–0.817) AP 0.628 sens 53/103 spec 319/343
+CQ500 v3b excl IVH                      | reported: 
+                                        | recomputed: 24/446 AUC 0.965 (0.913–0.992) AP 0.694 sens 23/24 spec 397/422
+CQ500 v3b excl SAH                      | reported: 
+                                        | recomputed: 56/446 AUC 0.864 (0.797–0.923) AP 0.656 sens 50/56 spec 204/390
+CQ500 v3b excl SDH                      | reported: 
+                                        | recomputed: 47/446 AUC 0.815 (0.733–0.883) AP 0.476 sens 40/47 spec 264/399
+CQ500 v3b-v2 excl                       | reported: 
+                                        | recomputed: 0.019 (-0.013–0.050) v2 0.783
+CQ500 v3b confusion                     | reported: SAH col high
+                                        | recomputed: {'rows': ['EDH', 'IPH', 'IVH', 'SAH', 'SDH'], 'n': [13, 134, 28, 60, 53], 'M': [[0.308, 0.385, 0.077, 0.692, 0.769], [0.067, 0.567, 0.366, 0.739, 0.493], [0.143, 0.929, 0.893, 0.964, 0.571], [0.117, 0.533, 0.467, 0.85, 0.583], [0.208, 0.264, 0.094, 0.717, 0.849]]}

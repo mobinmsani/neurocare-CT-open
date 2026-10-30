@@ -1,0 +1,490 @@
+name,pred_volume_ml,pred_components,qc_flag,midline_status,csf_offset_maxabs_mm,bone_source,soft_series,ref_ICH,ref_IPH,ref_IVH,ref_SDH,ref_EDH,ref_SAH,ref_BleedLocation-Left,ref_BleedLocation-Right,ref_ChronicBleed,ref_Fracture,ref_CalvarialFracture,ref_OtherFracture,ref_MassEffect,ref_MidlineShift
+CQ500-CT-0,0.521,3,False,estimated,5.721568453219908,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-1,128.416,12,False,estimated,14.073353114743918,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-10,3.98,50,False,estimated,11.486517225374183,soft_kernel_bone_window,CT PLAIN THIN,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-100,0.64,9,False,estimated,4.98456781709303,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-101,0.416,6,False,estimated,4.866476307046512,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-102,0.462,5,False,estimated,8.01713077514503,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,1,1,0,0,0
+CQ500-CT-103,0.655,2,False,estimated,2.9956395883265214,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-104,0.571,6,False,estimated,3.526872659193489,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-105,1.194,8,False,estimated,1.6974569854439567,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-106,5.503,8,False,estimated,8.776382478698642,bone_kernel,CT 55mm Plain,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-107,125.624,18,False,estimated,20.20397974349454,soft_kernel_bone_window,CT 55mm Plain,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+CQ500-CT-108,0.509,5,False,estimated,20.23446836492273,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CQ500-CT-109,79.744,9,False,estimated,3.4943592420128944,soft_kernel_bone_window,CT 5mm,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-11,0.045,1,False,estimated,8.840854878673037,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-110,2.612,18,False,estimated,4.639437351281927,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-111,36.826,28,False,estimated,16.559674843268212,soft_kernel_bone_window,CT Plain,1,1,1,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-112,0.084,3,False,estimated,7.872043396288921,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-113,4.771,7,False,estimated,4.441307773109249,bone_kernel,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-114,4.575,5,False,estimated,24.019371256442962,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-115,69.348,9,False,estimated,28.382827896874886,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,0,0,0,0,0,0,0,1,1
+CQ500-CT-116,0.078,1,False,estimated,7.2030194997419805,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-117,6.989,11,False,estimated,8.106574766068753,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-118,0.311,2,False,estimated,6.052797554241414,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-119,5.982,15,False,estimated,7.108210929966678,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+CQ500-CT-12,0.47,4,False,estimated,8.34974035105373,soft_kernel_bone_window,CT 55mm Plain,1,0,0,0,0,0,0,1,1,0,0,0,0,0
+CQ500-CT-121,4.035,15,False,estimated,10.302688618893814,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,1,1,0,0,0
+CQ500-CT-122,23.635,21,False,estimated,5.29980829770706,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-123,0.345,4,False,estimated,4.238317269040057,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-124,2.141,9,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-125,4.36,2,False,estimated,nan,soft_kernel_bone_window,CT 2.55mm-2,1,1,0,0,1,0,1,0,0,1,1,1,1,0
+CQ500-CT-126,0.428,1,False,estimated,6.7023026278116475,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-127,0.089,2,False,estimated,6.339367989596882,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-128,24.93,26,False,estimated,2.4924166026112964,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-129,31.482,9,False,estimated,13.65955644350163,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-13,24.595,5,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,1,1,0,1,1,0,1,1,0,1,0
+CQ500-CT-130,0.546,5,False,estimated,11.585718482352938,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-131,0.219,4,False,estimated,5.125382121698477,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-132,2.452,9,False,estimated,5.456969784840764,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-133,3.134,5,False,estimated,7.8314736612427085,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-134,0.159,3,False,estimated,nan,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-135,51.059,7,False,estimated,23.58601516081024,soft_kernel_bone_window,CT Plain,1,1,1,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-136,1.663,6,False,estimated,7.446215191789596,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,0,1,0,0,1,1,0,1,1
+CQ500-CT-137,1.567,10,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,0,1,0,0,1,0,1,1,0,1,0
+CQ500-CT-138,1.794,5,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-139,3.06,2,False,estimated,5.079993220147024,soft_kernel_bone_window,CT 55mm Plain,1,0,0,0,1,0,1,1,0,0,0,0,0,0
+CQ500-CT-14,1.312,3,False,estimated,8.009697474320383,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-140,0.135,2,False,estimated,9.779699675751225,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,1,1,0,0,0
+CQ500-CT-141,3.114,13,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-142,0.379,7,False,estimated,8.026137894073802,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-143,7.223,2,False,estimated,3.913247869838703,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CQ500-CT-144,0.657,4,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-145,0.217,2,False,estimated,4.966859239234548,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-146,6.207,15,False,estimated,2.2967121668067874,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-147,0.793,5,False,estimated,8.664197513593148,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,1,0,1,0,0,0,0,0,0
+CQ500-CT-148,0.349,5,False,estimated,8.230051230573252,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-149,1.216,10,False,estimated,3.5429458349204843,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-15,18.073,4,False,estimated,12.488203288122257,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+CQ500-CT-150,0.184,2,False,estimated,6.935858814596645,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-151,0.519,4,False,estimated,9.830213448076941,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-152,0.537,6,False,estimated,7.6670877114145775,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-153,0.47,11,False,estimated,15.346855403461051,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-154,5.549,10,False,estimated,5.315699511423147,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-155,1.595,5,False,estimated,16.51725880992083,soft_kernel_bone_window,CT 5mm,1,0,0,1,0,0,1,0,1,0,0,0,1,1
+CQ500-CT-156,0.069,2,False,estimated,8.672188000879968,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-157,5.288,7,False,estimated,6.786448740283081,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-158,0.463,17,False,estimated,21.465906198785504,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-159,6.806,4,False,estimated,5.777109232594801,soft_kernel_bone_window,CT 5mm,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-16,1.302,15,False,estimated,14.037886098723982,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,1,1,1,0,0
+CQ500-CT-160,0.595,12,False,estimated,4.56161448730679,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-161,0.461,3,False,estimated,8.550615342186578,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-162,0.278,3,False,estimated,11.8740954743312,soft_kernel_bone_window,CT Plain-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-163,0.0,0,False,abstained_insufficient_symmetric_slices,nan,soft_kernel_bone_window,CT Thin Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-164,0.467,6,False,estimated,4.971386136013832,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-165,0.6,5,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-166,0.626,6,False,estimated,7.140628085552263,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-167,0.224,5,False,estimated,1.5142749569707408,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-168,0.0,0,False,estimated,4.823344229385569,bone_kernel,CT BRAIN PLAIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-169,8.26,26,False,estimated,7.67681966277674,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-17,8.361,5,False,estimated,22.288663466249545,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-170,2.16,5,False,estimated,4.467732183516034,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-171,0.494,5,False,estimated,5.97938558292852,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+CQ500-CT-172,0.47,5,False,estimated,2.159071511725669,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-173,5.261,14,False,estimated,6.491181628521771,soft_kernel_bone_window,CT 2.55mm,1,1,0,1,1,1,1,1,0,1,1,0,1,0
+CQ500-CT-174,0.618,6,False,estimated,3.755641544935861,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-175,0.0,0,False,estimated,6.483819429833785,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-176,0.476,5,False,estimated,13.610971529105761,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-177,1.677,6,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-178,0.017,1,False,estimated,6.263960954141341,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-179,0.0,0,False,estimated,3.7038420478055256,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-18,0.048,1,False,estimated,5.541538527172559,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-180,3.128,13,False,estimated,21.184347082072637,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-181,41.003,2,False,estimated,7.968696224272664,soft_kernel_bone_window,CT 5mm,1,0,0,0,1,1,1,0,0,1,1,0,1,1
+CQ500-CT-182,0.418,2,False,estimated,7.961778705365817,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-183,33.505,24,False,estimated,15.397001992241375,soft_kernel_bone_window,CT C,1,1,0,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-184,0.164,3,False,estimated,2.241385555037879,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-185,0.452,2,False,estimated,6.644574266952694,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-186,21.961,28,False,estimated,6.926022674063797,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-187,0.105,4,False,estimated,15.153210173134246,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-188,12.728,6,False,estimated,23.256042780748658,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,1,1,0,0,0,0,0,1,1
+CQ500-CT-189,3.353,16,False,estimated,10.062374746639437,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,1,0,0,0,0,1,1
+CQ500-CT-19,62.363,10,False,estimated,6.623183464288011,soft_kernel_bone_window,CT Plain,1,1,1,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-190,0.214,7,False,estimated,7.263652111644136,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,0,1,1,0,0,0,0,0
+CQ500-CT-191,6.686,17,False,estimated,8.983054128020349,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-192,0.267,4,False,estimated,19.656687997631106,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,1,0,1,0,0,0,1,1
+CQ500-CT-193,0.848,2,False,estimated,13.154358784757662,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-194,2.554,9,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-195,4.224,14,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-196,1.223,4,False,estimated,7.499024338592228,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-197,0.489,5,False,estimated,2.9107048411409275,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-198,0.226,2,False,estimated,10.330611541042138,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-199,0.74,3,False,estimated,4.199011332107204,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-2,0.499,6,False,estimated,29.100960348056837,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-20,0.066,1,False,estimated,4.243335368346313,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-200,0.598,4,False,estimated,5.159154145798553,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-201,0.247,7,False,estimated,9.286651943661974,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-202,9.437,23,False,estimated,8.519578330834014,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-203,2.026,12,False,estimated,10.732844223921624,soft_kernel_bone_window,CT Plain 3mm,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+CQ500-CT-204,1.035,55,False,estimated,7.959086247052092,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-205,0.118,3,False,estimated,4.600511114745564,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-206,0.411,11,False,estimated,5.4062554210571285,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-207,17.88,7,False,estimated,11.615884258917482,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-208,2.081,8,False,estimated,6.577337093075351,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,1,1,0,0,0,0,0,1,0
+CQ500-CT-209,0.578,7,False,estimated,4.389219080324191,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-21,0.153,2,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-210,5.244,6,False,estimated,13.543282134303983,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,1,1,1,0,0,0,1,0
+CQ500-CT-211,5.698,9,False,estimated,5.497848336704416,soft_kernel_bone_window,CT 5mm-3,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-212,0.925,11,False,estimated,14.917483449420688,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-213,0.6,7,False,estimated,7.463900280595723,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-214,0.246,6,False,estimated,7.100919630938627,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-215,0.846,5,False,estimated,5.467417420614189,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CQ500-CT-216,40.191,7,False,estimated,29.656262081496944,soft_kernel_bone_window,CT 5mm,1,1,0,1,1,1,0,1,0,0,0,0,1,1
+CQ500-CT-217,1.671,8,False,estimated,9.843693840992447,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-218,0.705,7,False,estimated,3.734966948331352,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-219,26.384,5,False,estimated,19.23920329529449,soft_kernel_bone_window,CT 5mm,1,1,0,1,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-22,8.109,9,False,estimated,11.036249485747193,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-220,0.922,13,False,estimated,6.527262896524408,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-221,5.758,14,False,estimated,4.474427240643912,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-222,0.179,3,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-223,0.899,9,False,estimated,6.37441067318914,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-224,0.019,2,False,estimated,4.837834329261928,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-225,59.706,3,False,estimated,15.98313292900373,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-226,18.969,5,False,estimated,16.42032703199055,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-227,50.367,11,False,estimated,9.84700112145095,soft_kernel_bone_window,CT 55mm Plain,1,1,1,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-228,30.582,9,False,estimated,4.669428870402713,soft_kernel_bone_window,CT Plain,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-229,9.458,7,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-23,2.875,10,False,estimated,13.758772083618405,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-230,31.5,44,False,estimated,11.509165089499783,bone_kernel,CT SOFT THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-231,0.214,1,False,estimated,6.710799990746658,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-232,0.479,6,False,estimated,7.067248076290748,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-233,0.373,3,False,estimated,10.186634790097584,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-234,0.003,1,False,estimated,7.810063680351372,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-235,0.171,3,False,estimated,2.895865421719369,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-236,7.404,9,False,estimated,9.515509526383516,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-237,5.343,9,False,estimated,7.255536456894789,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,1,0,0,0,0,1,0
+CQ500-CT-238,1.153,4,False,estimated,9.87394833210532,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,1,1,1,0,0,0,1,0
+CQ500-CT-239,0.246,1,False,estimated,11.677552838928204,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,1,0,1,0,0,0,0,0
+CQ500-CT-24,0.012,1,False,estimated,7.420452358155202,soft_kernel_bone_window,CT 2.55mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-240,102.575,21,False,estimated,18.87898453036515,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,0,1,0,0,0,0,1,1
+CQ500-CT-241,0.13,1,False,estimated,0.9038682852582025,soft_kernel_bone_window,CT PLAIN,0,0,0,0,0,0,0,0,0,1,1,1,0,0
+CQ500-CT-242,1.488,7,False,estimated,7.710668768909241,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-243,47.568,6,False,estimated,18.7348063697589,bone_kernel,CT Plain,1,0,0,1,0,0,1,1,1,0,0,0,1,1
+CQ500-CT-244,2.246,8,False,estimated,6.208453536639621,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-245,18.115,4,False,estimated,5.275855676724185,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-246,0.052,2,False,estimated,4.113459902192526,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-247,7.405,3,False,estimated,8.930622012820757,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-248,3.135,5,False,estimated,7.967985919396464,bone_kernel,CT Plain,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-249,16.041,3,False,estimated,6.813060569997805,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-25,0.026,2,False,estimated,7.168016458250831,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-250,3.305,16,False,estimated,8.195273649918954,bone_kernel,CT Plain,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+CQ500-CT-251,17.705,10,False,estimated,12.241850267934215,soft_kernel_bone_window,CT Plain,1,1,0,0,0,1,1,1,0,1,1,0,1,1
+CQ500-CT-252,10.655,24,False,estimated,10.106359402122377,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-253,1.398,9,False,estimated,5.842281710022186,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-254,1.428,5,False,estimated,3.5996354392327317,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-255,0.063,3,False,estimated,4.212357800139798,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-256,29.468,6,False,estimated,13.910905258420216,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-257,1.245,9,False,estimated,6.104648889714713,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-258,21.795,21,False,estimated,18.589255771244048,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CQ500-CT-259,0.257,4,False,estimated,2.7672030800446086,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-26,0.106,1,False,estimated,4.013633424019463,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-260,0.049,2,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,0,1,0,1,1,0,0,0
+CQ500-CT-261,14.967,13,False,estimated,9.876778079606403,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-262,0.217,2,False,estimated,5.650796948381458,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-263,1.642,7,False,estimated,10.70417974780269,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-264,115.115,18,False,estimated,nan,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,0,1,0,0,0,0,1,1
+CQ500-CT-265,2.847,8,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-266,50.799,8,False,estimated,20.314939203269,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-267,0.074,3,False,estimated,5.13487479910691,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-268,0.809,8,False,estimated,5.669896086100701,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-269,1.077,12,False,estimated,4.709089594406528,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-27,0.654,3,False,estimated,4.403005715241627,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-270,0.665,8,False,estimated,6.04091061061257,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-271,0.331,3,False,estimated,3.95496255373092,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-272,1.557,19,False,estimated,6.685965789473685,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-273,51.261,8,False,estimated,15.669202253930461,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-274,2.259,9,False,estimated,16.520784689816757,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-275,14.139,3,False,estimated,9.57332490386215,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-276,3.062,29,False,estimated,8.202481849529782,bone_kernel,CT PRE CONTRAST THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-277,1.05,5,False,estimated,20.398458099135357,soft_kernel_bone_window,CT 5mm-2,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-278,8.551,15,False,estimated,8.950838268123336,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-279,11.432,4,False,estimated,6.959652945073157,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-28,0.063,2,False,estimated,3.349651564573137,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,1,0,0,1,1,0,1,0
+CQ500-CT-280,0.789,4,False,estimated,0.9385150577153427,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-281,0.26,4,False,estimated,9.377602538103728,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-282,0.0,0,False,estimated,10.092441749058356,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-283,0.136,2,False,estimated,8.335166183935744,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-284,3.787,15,False,estimated,3.348739599110883,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-285,8.041,14,False,estimated,19.236422487435437,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-286,2.556,11,False,estimated,2.3476508019525895,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-287,0.751,6,False,estimated,5.540611503180094,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-288,0.088,2,False,estimated,7.421830734149864,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-289,4.048,14,False,estimated,1.5662101297834958,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-29,0.019,1,False,estimated,8.838527813380017,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-290,0.072,1,False,estimated,5.600935454282425,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-291,0.37,3,False,estimated,12.284745769361345,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-292,4.2,12,False,estimated,3.101648792482961,soft_kernel_bone_window,CT C,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-293,0.02,2,False,estimated,3.765366181327492,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-294,0.742,7,False,estimated,4.553535062977966,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-295,0.481,7,False,estimated,11.2071950958353,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-296,37.303,6,False,estimated,12.308418777821382,soft_kernel_bone_window,CT Plain,1,1,1,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-297,1.013,7,False,estimated,27.974642393493497,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-298,0.499,17,False,estimated,6.960825697777773,bone_kernel,CT Thin Stnd,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-299,0.571,1,False,estimated,6.015057306636885,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-3,1.105,6,False,estimated,2.4570323642139194,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-30,1.444,72,False,estimated,11.416550475135328,soft_kernel_bone_window,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-300,0.242,2,False,estimated,4.820918735652219,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-301,0.201,4,False,estimated,15.139072693605359,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-302,1.204,3,False,estimated,3.690406977704169,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-303,2.031,5,False,estimated,4.485926177843221,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CQ500-CT-304,0.363,10,False,estimated,3.6859062986755458,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-305,8.982,6,False,estimated,8.66880247732075,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-306,1.463,11,False,estimated,9.874626310157463,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-307,2.518,4,False,estimated,4.383956541504269,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-308,2.003,22,False,estimated,3.299218005138562,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-309,0.879,3,False,estimated,10.35738272867925,bone_kernel,CT Plain,1,1,0,0,0,0,1,0,0,1,1,0,0,0
+CQ500-CT-31,2.009,7,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-310,4.728,9,False,estimated,22.0506949857921,bone_kernel,CT 55mm Plain,1,0,0,1,0,0,1,0,1,0,0,0,1,1
+CQ500-CT-311,1.753,6,False,estimated,3.538935549227017,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-312,53.909,6,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-313,2.533,14,False,estimated,8.267136523415994,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-314,13.829,5,False,estimated,8.18306202502,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-315,0.561,4,False,estimated,4.395266480679498,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-316,0.538,4,False,estimated,1.5805789417436444,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-317,0.45,3,False,estimated,5.145595232387916,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-318,2.647,3,False,estimated,9.968667897415031,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,1,1,1,0,0,0,0,0
+CQ500-CT-319,0.611,5,False,estimated,14.59556735061631,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-32,4.033,22,False,estimated,9.167889743589747,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-320,0.435,3,False,estimated,4.944823136062161,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-321,0.156,3,False,estimated,12.360307311811656,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-322,1.235,7,False,estimated,10.570059300121697,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-323,0.573,4,False,estimated,3.2473529453307846,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-324,52.76,38,False,estimated,7.148487654371947,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-325,1.602,9,False,estimated,3.3651384908615496,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-326,85.0,7,False,estimated,20.096125726307527,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-327,0.381,4,False,estimated,6.912503799795622,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-328,0.012,1,False,estimated,5.678887972845668,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,1,0,1,0,0,0,0,0,0
+CQ500-CT-329,0.054,2,False,estimated,4.731636686762772,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-33,11.126,19,False,estimated,7.5991195746304765,soft_kernel_bone_window,CT Plain,1,0,1,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-330,27.127,16,False,estimated,0.7051331936228753,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+CQ500-CT-331,0.106,3,False,estimated,11.038697381504807,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-332,0.092,7,False,estimated,10.185177615369811,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-333,3.443,9,False,estimated,3.9578551913165203,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-334,109.911,16,False,estimated,nan,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-335,0.119,2,False,estimated,2.848076677977402,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-337,7.486,18,False,estimated,15.381394363452605,soft_kernel_bone_window,CT 2.55mm,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CQ500-CT-338,4.946,14,False,estimated,5.512294651431179,soft_kernel_bone_window,CT Plain-2,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-339,0.487,15,False,estimated,15.77971854217559,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-34,8.2,14,False,estimated,7.465690944408557,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-340,0.0,0,False,estimated,14.03154128964471,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-341,0.84,8,False,estimated,3.962621385353099,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-342,48.678,8,False,estimated,12.891703858754253,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-343,75.613,87,False,estimated,9.831719855842183,soft_kernel_bone_window,CT Thin Plain,1,1,1,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-344,64.781,7,False,estimated,17.656866735827272,soft_kernel_bone_window,CT Plain,1,1,1,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-345,0.864,5,False,estimated,1.7549838771216038,soft_kernel_bone_window,CT 5mm-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-346,2.628,2,False,estimated,6.766465950453458,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-347,87.716,14,False,estimated,14.46768545557754,soft_kernel_bone_window,CT Plain,1,1,0,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-348,8.519,7,False,estimated,5.845439088414263,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,1,0,0,0,0,0,1,0
+CQ500-CT-349,10.242,17,False,estimated,18.69784633054157,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+CQ500-CT-35,3.559,12,False,estimated,8.85506545737816,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-350,1.081,6,False,estimated,6.407650103304849,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-351,0.758,4,False,estimated,5.3618668701538565,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-352,0.976,3,False,estimated,15.231489378662557,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-353,0.186,4,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-354,1.777,19,False,estimated,9.361100337798494,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-355,14.54,11,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,0,1,0,1,0,1,1,0
+CQ500-CT-356,0.038,1,False,estimated,10.163470833446102,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-357,33.357,8,False,estimated,26.054501623181086,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-358,2.149,6,False,estimated,16.63989561296485,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,1,1,1,0,0,0,1,1
+CQ500-CT-359,0.499,3,False,estimated,10.272525179464141,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,1,1,0,0,0,0,1,0
+CQ500-CT-36,2.976,12,False,estimated,7.029316334884088,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-360,10.583,22,False,estimated,9.489737385828173,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-361,2.18,5,False,estimated,7.00583127776156,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-362,0.063,2,False,estimated,7.1362891257328975,soft_kernel_bone_window,CT 55mm Plain,1,0,0,0,0,0,0,1,0,1,1,0,0,0
+CQ500-CT-363,44.373,10,False,estimated,24.99981967475197,soft_kernel_bone_window,CT Plain,1,1,0,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-364,1.588,11,False,estimated,17.18692507710144,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,1,1,1,0,0,0,1,1
+CQ500-CT-365,0.166,3,False,estimated,3.517781748480274,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-366,0.577,5,False,estimated,8.952271793518257,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CQ500-CT-367,0.577,5,False,estimated,6.422309428307131,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-368,0.452,3,False,estimated,8.067296110275695,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-369,9.543,22,False,estimated,10.423989355551742,soft_kernel_bone_window,CT C,1,1,0,0,0,0,1,1,0,0,0,0,1,1
+CQ500-CT-37,3.551,9,False,estimated,7.649618143749099,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-370,3.168,10,False,estimated,4.369742603239781,bone_kernel,CT Plain,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-371,35.155,9,False,estimated,14.276836362379356,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-372,0.621,4,False,estimated,10.295645965658824,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-373,1.136,8,False,estimated,6.092492307369352,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-374,8.451,10,False,estimated,8.707838249999998,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-375,0.903,6,False,estimated,4.698126038441572,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-376,28.602,15,False,estimated,6.617393119749764,soft_kernel_bone_window,CT 2.55mm,1,1,0,1,0,1,1,1,0,1,1,0,1,0
+CQ500-CT-377,2.885,3,False,estimated,10.902246273198807,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-378,39.216,9,False,estimated,2.1853799141314214,soft_kernel_bone_window,CT 5mm,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-379,49.93,4,False,estimated,30.78315068518343,soft_kernel_bone_window,CT 5mm,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-38,0.312,5,False,estimated,3.461841085358721,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-380,2.007,13,False,estimated,4.645007087316962,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-381,1.973,3,False,estimated,5.648529409561847,bone_kernel,CT Plain,1,0,0,1,1,0,0,0,0,1,1,0,1,0
+CQ500-CT-382,0.262,3,False,estimated,8.245345973917411,soft_kernel_bone_window,CT 2.55mm,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+CQ500-CT-383,7.113,3,False,estimated,8.645711120757056,soft_kernel_bone_window,CT 5mm,1,1,0,1,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-384,0.912,4,False,estimated,6.913144784313725,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,1,1,0,0,0
+CQ500-CT-385,0.415,1,False,estimated,5.4572510564858785,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-386,3.783,2,False,estimated,10.094094102317554,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,0,1,1,0,0,0,1,1
+CQ500-CT-387,1.064,5,False,estimated,3.3463930979751275,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-388,1.138,8,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-389,5.259,9,False,estimated,3.9517536206595683,soft_kernel_bone_window,CT C,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-39,9.553,25,False,estimated,4.017144183217509,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-390,2.197,9,False,estimated,1.1853618999010511,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-391,0.137,1,False,estimated,3.1220557432605807,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-392,2.382,7,False,estimated,5.760114784277885,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-393,32.157,64,False,estimated,10.314161353788341,soft_kernel_bone_window,CT Thin Plain,1,1,0,0,0,0,1,1,0,0,0,0,1,0
+CQ500-CT-394,0.07,2,False,estimated,9.422091539022624,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-395,0.359,4,False,estimated,9.044930821464087,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-396,0.759,9,False,estimated,19.71726542761736,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,0,0,0,0,0,1,1
+CQ500-CT-397,2.817,9,False,estimated,5.78335635238716,bone_kernel,CT Plain,1,1,0,0,0,0,0,1,0,1,1,1,0,0
+CQ500-CT-398,0.616,5,False,estimated,9.186991479299412,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-399,6.005,4,False,estimated,13.929113864994722,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,1,0,1,0,0,0,0,1,0
+CQ500-CT-4,57.737,5,False,estimated,7.172975083815913,soft_kernel_bone_window,CT 5mm,1,1,0,0,1,0,1,0,0,1,1,0,1,1
+CQ500-CT-40,10.453,12,False,estimated,10.328145434384362,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-400,0.191,2,False,estimated,7.412257329611872,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,1,1,1,0,0,0,0,0
+CQ500-CT-401,5.862,15,False,estimated,9.251556784989178,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-402,19.224,4,False,estimated,nan,soft_kernel_bone_window,CT 5mm,1,1,0,1,0,1,1,0,0,1,1,0,1,1
+CQ500-CT-403,7.493,5,False,estimated,2.2085791667109094,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CQ500-CT-404,0.338,4,False,estimated,4.479947256615724,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,0,1,1,0,0,0,0,0
+CQ500-CT-405,0.123,2,False,estimated,4.650822554138837,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-406,19.525,4,False,estimated,9.506710581414547,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-407,0.034,2,False,estimated,7.42804260726086,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-408,8.099,7,False,estimated,10.736729446258332,bone_kernel,CT BRAIN PLAIN,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-409,0.109,4,False,estimated,4.77574410115402,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-41,15.903,31,False,estimated,17.845097284355596,bone_kernel,CT HELICAL,1,1,0,1,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-410,1.001,11,False,estimated,4.077200568066432,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-411,0.305,2,False,estimated,6.113571462404071,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-412,7.982,15,False,estimated,18.531673230301294,soft_kernel_bone_window,CT 5mm,1,0,0,1,0,0,1,1,1,0,0,0,1,0
+CQ500-CT-413,53.561,10,False,estimated,22.06773612157598,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-414,2.105,6,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-415,0.0,0,False,estimated,5.139134711503606,soft_kernel_bone_window,CT 2.55mm,1,0,0,0,0,1,0,1,0,1,1,0,0,0
+CQ500-CT-416,28.82,10,False,estimated,13.64355808731821,soft_kernel_bone_window,CT Plain,1,1,0,0,0,1,0,1,0,0,0,0,1,0
+CQ500-CT-417,35.505,2,False,estimated,5.354782828657146,bone_kernel,CT Plain,1,0,0,0,1,0,1,0,0,1,1,0,1,0
+CQ500-CT-418,0.267,3,False,estimated,4.522733452014047,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-419,1.209,4,False,estimated,5.362260485056157,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-42,2.218,15,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-420,118.068,4,False,estimated,18.173602994683307,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-421,0.045,1,False,estimated,6.080713381763195,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-422,1.501,2,False,estimated,6.407700353692208,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-423,1.827,8,False,estimated,11.518134802295446,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-424,0.488,6,False,estimated,15.673537010159661,soft_kernel_bone_window,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-425,15.137,11,False,estimated,15.767019007317526,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+CQ500-CT-426,0.705,5,False,estimated,18.522240913480488,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-427,6.472,10,False,estimated,8.634023426406067,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,0,1,1,0,0,0,0,1,0
+CQ500-CT-428,4.68,9,False,estimated,10.191422609828097,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-429,18.148,15,False,estimated,4.175755710355019,bone_kernel,CT Plain,1,1,0,0,0,1,1,0,0,0,0,0,0,0
+CQ500-CT-43,5.636,11,False,estimated,14.431171619536906,soft_kernel_bone_window,CT 2.55mm,1,1,0,0,0,1,1,1,0,1,1,0,0,0
+CQ500-CT-430,5.12,8,False,abstained_insufficient_symmetric_slices,nan,soft_kernel_bone_window,CT 55mm Plain-2,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-431,0.272,2,False,estimated,9.079956100073113,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-432,0.192,7,False,estimated,6.063038640916274,soft_kernel_bone_window,CT Plain 3mm,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-433,3.142,10,False,estimated,7.264194153903973,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-434,42.81,5,False,estimated,10.166886585490118,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,0,1,0,0,1,0,1,1,0,1,0
+CQ500-CT-435,1.839,6,False,estimated,4.756734368206341,bone_kernel,CT Plain,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CQ500-CT-436,0.635,3,False,estimated,4.958030702022471,bone_kernel,CT Plain,1,0,0,1,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-437,1.223,3,False,estimated,1.9823009825841442,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-438,132.733,6,False,estimated,35.480599893581456,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-439,1.812,7,False,estimated,6.413083030599239,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-44,1.204,4,False,estimated,3.0820853035498725,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-440,0.601,4,False,estimated,4.166461486475862,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-441,2.984,9,False,estimated,5.3681127442602765,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-442,1.356,5,False,estimated,4.313310119011658,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-443,51.4,3,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-444,0.06,2,False,estimated,6.911681475660868,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-445,0.003,1,False,estimated,7.119844115902372,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-446,14.396,17,False,estimated,12.921029853420967,bone_kernel,CT Plain,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-447,0.385,3,False,estimated,3.7002415949447154,bone_kernel,CT BRAIN PLAIN,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+CQ500-CT-448,1.14,6,False,estimated,5.179976200934587,soft_kernel_bone_window,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-449,16.023,11,False,estimated,2.684222056490738,soft_kernel_bone_window,CT 5mm,1,1,0,1,0,1,1,1,0,1,1,0,1,0
+CQ500-CT-45,2.583,10,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-450,0.141,1,False,estimated,4.28336567834973,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-451,2.065,6,False,estimated,14.580501594942035,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-452,92.125,10,False,estimated,11.158495501523122,soft_kernel_bone_window,CT Plain,1,0,1,0,0,1,0,1,0,0,0,0,1,0
+CQ500-CT-453,0.117,4,False,estimated,2.583519056269711,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-454,4.231,13,False,estimated,6.0464879486793786,soft_kernel_bone_window,CT 5mm,1,1,0,1,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-455,2.19,9,False,estimated,11.28338615962221,bone_kernel,CT PLAIN THIN,1,0,0,1,0,0,0,1,0,1,1,1,1,1
+CQ500-CT-456,21.128,9,False,estimated,14.928290006669643,bone_kernel,CT 5mm-2,1,1,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-457,130.085,11,False,estimated,24.648846451499036,soft_kernel_bone_window,CT 2.55mm,1,1,1,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-458,3.949,7,False,estimated,8.448601372279487,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,1,1,1,0,0,0,0,0
+CQ500-CT-459,0.591,4,False,estimated,0.048033418121184675,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+CQ500-CT-46,0.231,2,False,estimated,8.790315366675392,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-460,2.574,17,False,estimated,4.160548450432218,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-461,8.334,9,False,estimated,16.418737294685986,soft_kernel_bone_window,CT 55mm Plain,1,1,0,1,0,0,1,0,0,1,1,0,1,1
+CQ500-CT-462,1.332,8,False,estimated,14.495266685109838,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-463,0.011,2,False,estimated,3.3178509759205115,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-464,0.908,3,False,estimated,4.624130453566516,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-465,0.13,1,False,estimated,4.051431243151546,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-466,1.422,4,False,estimated,8.243726777901237,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-467,1.079,5,False,estimated,3.3991367571775872,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-468,0.854,6,False,estimated,6.233870562262927,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-469,37.577,12,False,estimated,9.167347948026608,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,1,0,1,0,0,0,0,1,1
+CQ500-CT-47,3.152,11,False,estimated,6.233875764606621,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-470,1.354,3,False,estimated,3.197189367528755,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-471,0.104,7,False,estimated,7.941354326289147,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-472,5.287,10,False,estimated,0.44851930739152024,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-473,162.354,25,False,estimated,9.393633075441464,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-474,1.359,3,False,estimated,9.214479983179396,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-475,5.569,72,False,estimated,8.198887673523993,soft_kernel_bone_window,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-476,0.606,4,False,estimated,3.7606756444575797,bone_kernel,CT BRAIN PLAIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-477,1.285,10,False,estimated,6.858165918635026,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-478,14.31,17,False,estimated,2.0272804742051616,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-479,23.729,8,False,estimated,10.189980044330774,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,1,1,0,1,1,0,1,1,0,1,1
+CQ500-CT-48,126.213,16,False,estimated,25.53004699520408,soft_kernel_bone_window,CT Plain,1,1,1,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-480,51.041,25,False,estimated,14.30842035707977,bone_kernel,CT PRE CONTRAST 5MM STD,1,0,0,1,0,0,0,1,1,0,0,0,1,1
+CQ500-CT-481,55.543,4,False,estimated,8.613838970461916,soft_kernel_bone_window,CT Plain,1,1,1,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-482,3.412,19,False,estimated,6.3483609711680415,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-483,0.141,6,False,estimated,5.170938642241058,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-484,0.514,3,False,estimated,3.5078109719317463,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-485,9.33,9,False,estimated,3.4503734913756694,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-486,2.875,4,False,estimated,13.942955511534468,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-487,1.204,5,False,estimated,6.955846830218045,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-488,63.528,12,False,estimated,37.331368509513744,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-489,39.81,4,False,estimated,20.836604391293942,soft_kernel_bone_window,CT 5mm,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-49,0.551,6,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-490,0.38,6,False,estimated,2.7689610079426688,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-5,0.208,4,False,estimated,11.675475122401544,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-50,0.61,3,False,estimated,4.380218914614585,soft_kernel_bone_window,CT 5mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-51,0.726,7,False,estimated,4.424976877055883,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-52,1.213,6,False,estimated,3.063097431492702,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,0,0,0,0,0,1,0,1,1,1,1,0
+CQ500-CT-53,0.378,1,False,estimated,3.3113270792538225,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-54,0.57,5,False,estimated,5.27572389468275,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-55,38.07,3,False,estimated,17.447299283489095,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-56,0.46,1,False,estimated,11.464277850165344,soft_kernel_bone_window,CT 2.55mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-57,5.046,4,False,estimated,3.6978512153696985,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+CQ500-CT-58,4.922,9,False,estimated,11.884918935905967,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-59,10.876,14,False,estimated,5.1253190848700685,soft_kernel_bone_window,CT Plain,1,0,1,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-6,2.121,7,False,estimated,3.6674634070069376,soft_kernel_bone_window,CT 3.753.75mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-60,17.123,13,False,estimated,9.299367236294202,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-61,147.416,9,False,estimated,33.28892330773871,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,0,1,0,0,0,0,1,1
+CQ500-CT-62,0.055,3,False,estimated,3.828503775287862,bone_kernel,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-63,4.112,12,False,estimated,6.775067336329142,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-64,56.023,9,False,estimated,25.81881853517013,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-65,7.03,12,False,estimated,17.344220310105566,soft_kernel_bone_window,CT 2.55mm,1,0,0,1,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-66,0.306,4,False,estimated,0.16251296470009827,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,1,1,1,0,0
+CQ500-CT-67,1.946,7,False,estimated,8.750948713911935,bone_kernel,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-68,0.848,7,False,estimated,20.797192373742433,soft_kernel_bone_window,CT 55mm Plain,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+CQ500-CT-69,5.004,18,False,estimated,5.55040563551066,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-7,1.681,8,False,estimated,14.849619616806264,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-70,0.465,2,False,estimated,4.391995683774995,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-71,7.689,15,False,estimated,2.06823750510463,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-72,12.203,13,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-73,90.031,13,False,estimated,12.252742227392607,soft_kernel_bone_window,CT C,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-74,11.403,16,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-75,102.575,21,False,estimated,18.87898453036515,soft_kernel_bone_window,CT Plain 3mm,1,1,1,0,0,1,1,1,0,0,0,0,1,1
+CQ500-CT-76,0.493,2,False,estimated,6.019640002590926,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-77,0.937,7,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-78,1.143,10,False,estimated,11.704170467698997,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-79,0.219,7,False,estimated,8.091224151739626,soft_kernel_bone_window,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-8,89.413,36,False,estimated,16.90106078788644,soft_kernel_bone_window,CT HELICAL,1,1,0,0,0,1,1,1,0,0,0,0,1,0
+CQ500-CT-80,8.611,7,False,estimated,8.616712903644146,soft_kernel_bone_window,CT 5mm,1,1,1,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-81,0.187,2,False,estimated,3.8631659992503,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-82,0.654,14,False,estimated,7.354508817477582,bone_kernel,CT PLAIN THIN,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-83,0.277,2,False,estimated,2.562846664023146,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-84,1.494,8,False,estimated,4.004249326806532,soft_kernel_bone_window,CT Plain,1,0,0,0,0,1,1,1,0,0,0,0,0,0
+CQ500-CT-85,0.292,2,False,estimated,4.1982464430272195,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-86,24.029,13,False,estimated,19.076289139959425,soft_kernel_bone_window,CT 55mm Plain,1,0,0,1,0,0,1,1,0,0,0,0,1,1
+CQ500-CT-87,0.54,4,False,estimated,13.841212330833885,soft_kernel_bone_window,CT Plain 3mm,1,0,0,1,0,0,1,1,1,0,0,0,1,1
+CQ500-CT-88,12.007,9,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-89,8.311,25,False,estimated,4.971038980184103,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-9,0.007,2,False,estimated,5.445763609933675,soft_kernel_bone_window,CT 55mm Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-90,2.591,3,False,estimated,8.100357247500023,soft_kernel_bone_window,CT 5mm,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+CQ500-CT-91,0.684,4,False,estimated,2.5691284482191774,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-92,7.22,3,False,estimated,10.24072243680053,soft_kernel_bone_window,CT Plain,1,1,0,0,0,0,1,0,0,0,0,0,1,0
+CQ500-CT-93,1.444,12,False,estimated,0.39021629512419187,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-94,0.144,4,False,estimated,10.956800443027156,soft_kernel_bone_window,CT Plain 3mm,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-95,22.555,16,False,estimated,10.046554116287455,bone_kernel,CT PRE CONTRAST 5MM STD,1,1,1,0,0,0,1,0,0,0,0,0,1,1
+CQ500-CT-96,0.067,2,False,estimated,3.311804215266002,soft_kernel_bone_window,CT Plain,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-97,0.228,2,False,estimated,nan,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-98,3.418,11,False,estimated,2.3829797536600736,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CQ500-CT-99,3.897,6,False,estimated,11.926380805669204,bone_kernel,CT PRE CONTRAST 5MM STD,0,0,0,0,0,0,0,0,0,0,0,0,0,0

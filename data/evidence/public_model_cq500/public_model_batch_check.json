@@ -1,0 +1,117 @@
+{
+ "scans": [
+  {
+   "scan": "CQ500-CT-149",
+   "n_slices": 32,
+   "any_stored": 0.9969308972358704,
+   "any_batch1": 0.9969308972358704,
+   "series_classification": 1.1920928955078125e-07,
+   "base_series_classification": 1.7881393432617188e-07,
+   "contextual_series_classification": 1.1920928955078125e-07,
+   "slice_max": 1.7881393432617188e-07,
+   "slice_any": 2.8266906704210726e-08
+  },
+  {
+   "scan": "CQ500-CT-325",
+   "n_slices": 30,
+   "any_stored": 0.02277355082333088,
+   "any_batch1": 0.02277355082333088,
+   "series_classification": 2.421438694000244e-08,
+   "base_series_classification": 4.0978193283081055e-08,
+   "contextual_series_classification": 6.51925802230835e-09,
+   "slice_max": 8.381903171539307e-09,
+   "slice_any": 2.2172927903463258e-10
+  },
+  {
+   "scan": "CQ500-CT-142",
+   "n_slices": 36,
+   "any_stored": 0.018875541165471077,
+   "any_batch1": 0.018875541165471077,
+   "series_classification": 8.381903171539307e-09,
+   "base_series_classification": 9.313225746154785e-09,
+   "contextual_series_classification": 4.889443516731262e-09,
+   "slice_max": 3.725290298461914e-09,
+   "slice_any": 1.9878149040003512e-10
+  },
+  {
+   "scan": "CQ500-CT-462",
+   "n_slices": 32,
+   "any_stored": 0.22281423211097717,
+   "any_batch1": 0.22281384468078613,
+   "series_classification": 3.8743019104003906e-07,
+   "base_series_classification": 2.980232238769531e-07,
+   "contextual_series_classification": 3.2782554626464844e-07,
+   "slice_max": 3.5762786865234375e-07,
+   "slice_any": 2.60829924325634e-09
+  },
+  {
+   "scan": "CQ500-CT-197",
+   "n_slices": 21,
+   "any_stored": 0.004201978445053101,
+   "any_batch1": 0.004201976582407951,
+   "series_classification": 5.587935447692871e-09,
+   "base_series_classification": 2.3283064365386963e-10,
+   "contextual_series_classification": 5.587935447692871e-09,
+   "slice_max": 1.280568540096283e-09,
+   "slice_any": 1.0803341858253712e-10
+  },
+  {
+   "scan": "CQ500-CT-108",
+   "n_slices": 32,
+   "any_stored": 0.11664000153541565,
+   "any_batch1": 0.11664003878831863,
+   "series_classification": 3.725290298461914e-08,
+   "base_series_classification": 1.4901161193847656e-07,
+   "contextual_series_classification": 3.3527612686157227e-08,
+   "slice_max": 3.3527612686157227e-08,
+   "slice_any": 1.7988681794145478e-09
+  },
+  {
+   "scan": "CQ500-CT-278",
+   "n_slices": 30,
+   "any_stored": 0.1283525973558426,
+   "any_batch1": 0.12835247814655304,
+   "series_classification": 1.1920928955078125e-07,
+   "base_series_classification": 1.9371509552001953e-07,
+   "contextual_series_classification": 3.725290298461914e-08,
+   "slice_max": 8.195638656616211e-08,
+   "slice_any": 3.1638145436829745e-09
+  },
+  {
+   "scan": "CQ500-CT-409",
+   "n_slices": 57,
+   "any_stored": 0.01004185900092125,
+   "any_batch1": 0.010041868314146996,
+   "series_classification": 9.313225746154785e-09,
+   "base_series_classification": 2.2351741790771484e-08,
+   "contextual_series_classification": 4.6566128730773926e-09,
+   "slice_max": 6.05359673500061e-09,
+   "slice_any": 1.4603137969693147e-10
+  },
+  {
+   "scan": "CQ500-CT-429",
+   "n_slices": 30,
+   "any_stored": 0.9981814622879028,
+   "any_batch1": 0.9981814622879028,
+   "series_classification": 4.889443516731262e-09,
+   "base_series_classification": 5.960464477539063e-08,
+   "contextual_series_classification": 5.960464477539063e-08,
+   "slice_max": 5.960464477539063e-08,
+   "slice_any": 2.95639037695139e-08
+  },
+  {
+   "scan": "CQ500-CT-81",
+   "n_slices": 36,
+   "any_stored": 0.08103879541158676,
+   "any_batch1": 0.08103878051042557,
+   "series_classification": 5.21540641784668e-08,
+   "base_series_classification": 1.341104507446289e-07,
+   "contextual_series_classification": 3.91155481338501e-08,
+   "slice_max": 4.470348358154297e-08,
+   "slice_any": 1.7023086551493094e-09
+  }
+ ],
+ "max_abs_diff_series": 3.8743019104003906e-07,
+ "max_abs_diff_slice": 3.5762786865234375e-07,
+ "note": "stored outputs computed with batches of two slices; re-run with batches of one; slice_any stored rounded to 5 decimals"
+}

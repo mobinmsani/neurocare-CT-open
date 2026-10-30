@@ -1,0 +1,50 @@
+{
+ "all scans": {
+  "n": 491,
+  "BleedLocation-Left": {
+   "k": 0.6896566254342511,
+   "lo": 0.6286935518352579,
+   "hi": 0.7441508341840931,
+   "majority_pos": 131
+  },
+  "BleedLocation-Right": {
+   "k": 0.695582536812193,
+   "lo": 0.6364378549296125,
+   "hi": 0.7516165440581327,
+   "majority_pos": 129
+  },
+  "min": 0.6896566254342511
+ },
+ "majority hemorrhage-positive scans": {
+  "n": 205,
+  "BleedLocation-Left": {
+   "k": 0.542847316218075,
+   "lo": 0.45165552918727764,
+   "hi": 0.630592955256358,
+   "majority_pos": 131
+  },
+  "BleedLocation-Right": {
+   "k": 0.5725868725868722,
+   "lo": 0.4818311441410301,
+   "hi": 0.6588429915596115,
+   "majority_pos": 129
+  },
+  "min": 0.542847316218075
+ },
+ "unanimously hemorrhage-positive scans": {
+  "n": 168,
+  "BleedLocation-Left": {
+   "k": 0.5948206557993945,
+   "lo": 0.49205336130053795,
+   "hi": 0.6899235118057861,
+   "majority_pos": 110
+  },
+  "BleedLocation-Right": {
+   "k": 0.6529100529100528,
+   "lo": 0.5569080949482651,
+   "hi": 0.7411873840445266,
+   "majority_pos": 106
+  },
+  "min": 0.5948206557993945
+ }
+}

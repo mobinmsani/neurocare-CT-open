@@ -1,0 +1,108 @@
+{
+ "n_released": 51,
+ "n_reference": 41,
+ "focus": {
+  "CQ500-CT-108": {
+   "scan": "CQ500-CT-108",
+   "analyzed": true,
+   "shape": "512x512x256",
+   "spacing_mm": "0.496,0.496,0.684",
+   "voxel_ml": 0.1538,
+   "geometry_ok": true,
+   "mask_ml": 450.76,
+   "brain_ml": 1528.3,
+   "hu_median": 23.0,
+   "hu_q1": 18.0,
+   "hu_q3": 27.0,
+   "frac_40_100": 0.017,
+   "frac_0_30": 0.838,
+   "frac_lt0": 0.001,
+   "frac_gt100": 0.001,
+   "frac_in_brain": 1.0,
+   "mask_over_brain": 0.295,
+   "components": 1,
+   "largest_ml": 450.76,
+   "z_extent_slices": 170,
+   "brain_parenchyma_hu_median": 31.0,
+   "rank_mask_ml_desc": 1,
+   "n_ref_with_lower_hu_median": 0
+  },
+  "CQ500-CT-187": {
+   "scan": "CQ500-CT-187",
+   "analyzed": true,
+   "shape": "512x512x256",
+   "spacing_mm": "0.469,0.469,0.625",
+   "voxel_ml": 0.1373,
+   "geometry_ok": true,
+   "mask_ml": 2.42,
+   "brain_ml": 1513.6,
+   "hu_median": 61.0,
+   "hu_q1": 57.0,
+   "hu_q3": 65.0,
+   "frac_40_100": 0.995,
+   "frac_0_30": 0.001,
+   "frac_lt0": 0.0,
+   "frac_gt100": 0.0,
+   "frac_in_brain": 1.0,
+   "mask_over_brain": 0.002,
+   "components": 2,
+   "largest_ml": 1.54,
+   "z_extent_slices": 74,
+   "brain_parenchyma_hu_median": 30.0,
+   "rank_mask_ml_desc": 35,
+   "n_ref_with_lower_hu_median": 28
+  }
+ },
+ "reference_distribution": {
+  "mask_ml": {
+   "median": 8.94,
+   "q1": 4.02,
+   "q3": 30.1,
+   "min": 0.31,
+   "max": 124.32
+  },
+  "hu_median": {
+   "median": 52.0,
+   "q1": 46.0,
+   "q3": 62.0,
+   "min": 27.0,
+   "max": 83.0
+  },
+  "frac_40_100": {
+   "median": 0.851,
+   "q1": 0.689,
+   "q3": 0.941,
+   "min": 0.004,
+   "max": 0.999
+  },
+  "frac_0_30": {
+   "median": 0.018,
+   "q1": 0.007,
+   "q3": 0.086,
+   "min": 0.0,
+   "max": 0.595
+  },
+  "frac_in_brain": {
+   "median": 1.0,
+   "q1": 1.0,
+   "q3": 1.0,
+   "min": 0.996,
+   "max": 1.0
+  },
+  "mask_over_brain": {
+   "median": 0.007,
+   "q1": 0.003,
+   "q3": 0.021,
+   "min": 0.0,
+   "max": 0.109
+  },
+  "components": {
+   "median": 2.0,
+   "q1": 1.0,
+   "q3": 4.0,
+   "min": 1.0,
+   "max": 76.0
+  }
+ },
+ "note": "Reference distribution: the other analyzed Seg-CQ500 scans (excluding CT-108 and CT-187). Descriptive only; no adjudication."
+}

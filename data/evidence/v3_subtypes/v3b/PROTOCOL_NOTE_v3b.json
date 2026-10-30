@@ -1,0 +1,1 @@
+{"status":"post hoc, defined after v3 BHSD test results were inspected (v3 never predicted EDH/SAH/SDH)","changes":"rare-class slices (EDH, SAH, SDH) oversampled x3 per epoch; class weights bg1 EDH8 IPH2 IVH3 SAH6 SDH5; 12 epochs; otherwise identical","interpretation":"any v3b test result is exploratory, test set no longer untouched for this choice"}

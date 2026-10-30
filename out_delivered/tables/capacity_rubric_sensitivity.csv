@@ -1,0 +1,21 @@
+kappa_min,positives_min,adequate,limited,none,subtypes_adequate,changed,scenario
+0.55,25,4,8,5,"IPH, IVH, SAH",Midline shift >5 mm (presence): limited -> adequate,
+0.55,35,4,8,5,"IPH, SAH",Midline shift >5 mm (presence): limited -> adequate,
+0.55,50,4,8,5,"IPH, SAH",Midline shift >5 mm (presence): limited -> adequate,
+0.6,25,3,9,5,"IPH, IVH, SAH",,
+0.6,35,3,9,5,"IPH, SAH",,
+0.6,50,3,9,5,"IPH, SAH",,
+0.61,25,3,9,5,"IPH, IVH, SAH",,
+0.61,35,3,9,5,"IPH, SAH",,
+0.61,50,3,9,5,"IPH, SAH",,
+0.65,25,3,9,5,"IPH, IVH",,
+0.65,35,3,9,5,IPH,,
+0.65,50,3,9,5,IPH,,
+0.7,25,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.7,35,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.7,50,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.75,25,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.75,35,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.75,50,1,11,5,IPH,Hemorrhage side: adequate -> limited; Mass effect (presence): adequate -> limited,
+0.61,35,3,9,5,"IPH, SAH",,account-only resources counted
+0.61,35,3,10,4,"IPH, SAH","Fracture localization: none -> limited (CT-ICH earlier releases (versions 1.0.0, 1.2.0 and 1.3.0) (mirror-only): construct (partial); <35 positives; reliability unknown)",mirror-only releases counted

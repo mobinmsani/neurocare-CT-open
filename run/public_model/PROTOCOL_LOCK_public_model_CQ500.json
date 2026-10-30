@@ -1,0 +1,50 @@
+{
+ "title": "Replication with a strong, independently developed public model: CQ500 reference-standard analyses",
+ "locked_at_utc": "2026-10-28T22:48:16+00:00",
+ "status": "Post hoc relative to the original study. This analysis plan was fixed before model outputs were generated for the evaluation. One scan (CQ500-CT-108) was processed beforehand to measure run time; its output was seen and is reported unchanged.",
+ "model": {
+  "name": "CT Head Hemorrhage Detection (MaxViT-Tiny slice encoder + bidirectional GRU)",
+  "author": "Ian Pan",
+  "hf_repo": "ianpan/ct-head-hemorrhage-detection",
+  "hf_revision": "e6d89c253fdcc2a597dd0fd0f5771821f4947b37",
+  "code_revision": "914c57d (github.com/i-pan/ct-head-hemorrhage-detection)",
+  "license": "MIT",
+  "training_data": "RSNA 2019 Intracranial Hemorrhage Detection data (patient-level split; BHSD subset excluded from classification). CQ500 was not used for training, selection or calibration.",
+  "weights_sha256": {
+   "classifier/model.safetensors": "525b5fc1731dab82fcdb1eb878570f4cf4b0fed483e307bc65e312a4d91c1489",
+   "segmentation/fold0.safetensors": "d299e204c640bdc124829b5cc2e6d5e08973b8c17698a5bffdd565baa46ec786",
+   "segmentation/fold1.safetensors": "1dbad6ad4dfd21e963e01a71f4486558287fe32e3acdcf47ad601ad8a3132c3e",
+   "segmentation/fold2.safetensors": "e814b8e398b7c879c22663187d7c58ff88ee0fcaf11ea4e76859c35488b4d052",
+   "segmentation/fold3.safetensors": "971bfe1163797c3587c045ef013475e6cd5973aa7116f8b01f8305725777910d",
+   "segmentation/fold4.safetensors": "f1913ce8d7f9cacbb948615a7690cfad568fe0f713c1f11de9ac3199ff060e8f",
+   "sequence/model.safetensors": "9421066cb5c6882087730b367b578f0fb8b6935391c2611bbc4bc2241c8ee487"
+  },
+  "inference_py_sha256": "9792e50ad1d863e80a549d391ee53c5031d490abb75acba42d471b02a83fbafb",
+  "inference": "HemorrhageSliceModel.predict_hu_volume(volume, batch_size=2, return_segmentation=False, long_series_mode='resample'); fixed class-specific logit blends as released; CPU float32; torch 2.6.0+cpu; timm 1.0.27; no tuning, calibration or threshold selection on CQ500."
+ },
+ "input": "The 489 CQ500 scans analysed in the locked v2 evaluation; for each, the soft-tissue series chosen by the locked series-selection rule (choose() in research_cq500_extract.py), read with the model's own DICOM loader (rescale slope/intercept applied, slices physically ordered).",
+ "reference": "CQ500 reader majority (>=2 of 3 readers) for each label; the number of positive reads (0-3) defines agreement strata; batches B1 (consecutive) and B2 (enriched) as released.",
+ "scores": {
+  "any": "series-level fixed-blend probability for 'any'",
+  "subtype": "series-level fixed-blend probabilities for epidural, intraparenchymal, intraventricular, subarachnoid and subdural hemorrhage"
+ },
+ "thresholds": {
+  "primary": 0.5,
+  "secondary_descriptive": [
+   "threshold giving specificity 0.90 among majority-negative scans",
+   "threshold giving the specificity of v2 at 1.0 mL (169/284 = 0.595)"
+  ]
+ },
+ "endpoints": [
+  "E1 AUC for any ICH against the reader majority: all 489 scans, B1, B2 (B1-B2 difference by independent bootstrap); AUC restricted to unanimous scans.",
+  "E2 Sensitivity, specificity, PPV and NPV at the primary threshold, overall and by batch; PPV of the B2 operating point at B1 prevalence and the share of the B1-B2 PPV difference attributable to prevalence.",
+  "E3 Sensitivity for majority positives decided 2-1 versus 3-0, overall and by number of majority subtype labels (none, one, two or more); Newcombe interval for the difference; two-sided Fisher exact test.",
+  "E4 Share at or above the threshold among unanimous negatives versus negatives with one positive read (Newcombe interval).",
+  "E5 Cohen's kappa between the model call at the primary threshold and each reader, and between readers on the same scans.",
+  "E6 Subtype AUCs against all other scans and within majority ICH-positive scans, using each subtype probability; within ICH-positive scans, compared with the 'any' probability as a type-free baseline (paired DeLong, Holm across five subtypes).",
+  "E7 Cross-subtype call matrix at 0.5, off-diagonal cells restricted to scans without the column subtype (as in the original analysis).",
+  "E8 BHX and Seg-CQ500 discordances: distribution of the relevant subtype probability (and share >=0.5) in scans with BHX boxes of a subtype but no majority label, versus majority-positive scans and scans with neither; 'any' probability for the two Seg-CQ500 masks on majority-negative scans (CT-108, CT-187). Descriptive; the model is not a reference standard and is not used to adjudicate."
+ ],
+ "statistics": "Wilson intervals for proportions; Newcombe hybrid score intervals for differences; bootstrap percentile intervals (10,000 resamples of scans, seed 20261029) for AUCs and their differences; paired DeLong tests with Holm adjustment for E6; all tests two-sided, alpha 0.05.",
+ "interpretation": "Findings that replicate with this model are treated as properties of the references that do not depend on probe weakness; differences are reported as model dependence. Agreement of the model with one reference rather than another is reported as uncertainty, not as evidence of which reference is correct."
+}

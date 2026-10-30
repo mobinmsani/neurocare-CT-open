@@ -1,0 +1,18 @@
+scenario,adequate,limited,none,subtypes_adequate,changed
+kmin=0.55,3,9,5,"IPH, SAH",Midline shift >5 mm (presence): limited -> adequate
+kmin=0.6,2,10,5,"IPH, SAH",–
+kmin=0.65,2,10,5,IPH,–
+kmin=0.7,1,11,5,IPH,Mass effect (presence): adequate -> limited
+kmin=0.75,1,11,5,IPH,Mass effect (presence): adequate -> limited
+Lower 95% bound of kappa >=0.61,1,11,5,IPH,Mass effect (presence): adequate -> limited
+bmin=25,2,10,5,"IPH, IVH, SAH",–
+bmin=50,2,10,5,"IPH, SAH",–
+Positives >=140 (Wilson lower bound 0.90 at an observed sensitivity of 0.95),1,11,5,,Mass effect (presence): adequate -> limited
+cmin=50,2,10,5,"IPH, SAH",–
+cmin=200,2,10,5,"IPH, SAH",–
+tmin=25,2,10,5,"IPH, SAH",–
+tmin=50,2,10,5,"IPH, SAH",–
+Resources needing a free account counted,2,10,5,"IPH, SAH",–
+Releases persisting only in mirrors counted,2,11,4,"IPH, SAH","Fracture localization: none -> limited (CT-ICH earlier releases, third-party mirrors (one hospital in Iraq); R1 construct partial; R2 reader agreement not reported; R4 22 positives)"
+Releases that re-host RSNA 2019 images not counted,2,10,5,"IPH, SAH",–
+Releases hosted only on Kaggle not counted,2,9,6,"IPH, SAH","Basal cisterns, ventricles, herniation: limited -> none (R1 no reference measures the endpoint)"

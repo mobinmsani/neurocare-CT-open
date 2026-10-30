@@ -1,0 +1,41 @@
+{
+  "lock": {
+    "rule": "flag if 1st-percentile stored intensity > -500 (air absent => non-HU encoding suspected)",
+    "derived_from": "physical HU definition; feasibility checked on training only",
+    "training_scans": 92,
+    "training_flagged": 0,
+    "test_outcomes_viewed_before_lock": "aggregate Dice known; per-case QC-outcome link not used",
+    "action": "abstain from quantitative output, do not rescale"
+  },
+  "test_scans": 96,
+  "flagged": 1,
+  "coverage": 0.9895833333333334,
+  "all_cases": {
+    "n": 96,
+    "mean_dice": 0.43556600627529257,
+    "MAE_ml": 23.341961693258458,
+    "RMSE_ml": 141.8167735852533,
+    "bias_ml": 10.720082593845918,
+    "ICC_A1": 0.05367362575941106
+  },
+  "accepted_cases": {
+    "n": 95,
+    "mean_dice": 0.44015091160450615,
+    "MAE_ml": 9.033126425397795,
+    "RMSE_ml": 14.121326533529567,
+    "bias_ml": -3.721614559271719,
+    "ICC_A1": 0.9099966884831671
+  },
+  "flagged_cases": {
+    "n": 1,
+    "mean_dice": 0.0,
+    "MAE_ml": 1382.6813121400214,
+    "RMSE_ml": 1382.6813121400214,
+    "bias_ml": 1382.6813121400214,
+    "ICC_A1": NaN
+  },
+  "flagged_ids": [
+    "ID_a429fd9a_ID_2eabc43f3d"
+  ],
+  "interpretation": "selective-prediction result; accepted-subset metrics apply only to QC-passing scans"
+}

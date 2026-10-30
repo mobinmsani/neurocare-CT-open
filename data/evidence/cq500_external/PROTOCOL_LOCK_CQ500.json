@@ -1,0 +1,11 @@
+{"locked_at":"2026-10-22, before any CQ500 outcome was computed (only 9 scans processed, no labels joined)",
+ "reference":"Majority (>=2 of 3 readers) per label in reads.csv",
+ "model":"Frozen BHSD-trained v2 (no post-mask), no CQ500 tuning",
+ "primary_ich_rule":"ICH positive if predicted volume >= 1.0 mL; AUC uses predicted volume as score",
+ "subtype":"Binary model; per-subtype AUC of total predicted volume reported as descriptive only; subtype localization = fraction of BHX boxes containing >=1 predicted voxel on the matched SOPInstanceUID slice",
+ "laterality":"Unilateral reader-majority side cases; predicted side from sign of mean voxel offset to ideal midline; axis0 increasing = DICOM column direction = patient left for standard orientation",
+ "midline_shift":"Detection of reader MidlineShift by exploratory CSF-centroid offset (max abs, mm); AUC only; no mm accuracy claimed",
+ "mass_effect":"AUC of predicted volume and of CSF offset for reader MassEffect",
+ "fracture":"Scan-level reader Fracture (any) and CalvarialFracture; 5-fold stratified CV (seed 20261022) 2D slice CNN with max-over-slices pooling on bone images 128x128; AUC, sensitivity/specificity at Youden threshold chosen inside training folds",
+ "qc":"Scans with p01 > -500 HU flagged and reported separately",
+ "ci":"Bootstrap 2000 scans; Wilson for proportions"}

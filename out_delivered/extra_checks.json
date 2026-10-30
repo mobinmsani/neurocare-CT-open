@@ -1,0 +1,29 @@
+{
+ "mls_pos_ich_neg": 1,
+ "me_pos_ich_neg": 5,
+ "mls_pos_total": 65,
+ "ich_bilateral": 63,
+ "ich_noside": 8,
+ "ich_unilateral": 134,
+ "side_without_ich": 0,
+ "fx_pos_ich_neg": 8,
+ "seg_v2nm_excl108_icc_ci": [
+  0.4546622692708515,
+  0.8761334349256027
+ ],
+ "seg_dicom_excl108_icc_ci": [
+  0.4404410323345213,
+  0.8900275205460149
+ ],
+ "seg_blast_excl108_icc_ci": [
+  0.10987702735333116,
+  0.7626903166358217
+ ],
+ "seg_v2nm_excl108_dice": [
+  0.5045534895083849,
+  [
+   0.4151688506959479,
+   0.5917638970753564
+  ]
+ ]
+}

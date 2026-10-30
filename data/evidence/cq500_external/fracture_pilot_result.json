@@ -1,0 +1,4 @@
+{"status":"partially completed - stopped after pilot fold","label":"Fracture (reader majority), 39/489 positive",
+ "design":"2D CNN on 128x128 bone images, log-sum-exp slice pooling, 14 epochs, 5-fold stratified CV seed 20261022",
+ "fold0_test_AUC":0.5139,"fold0_test_n":98,
+ "decision":"Stopped: chance-level discrimination; resolution (~1.9 mm/pixel) and 39 positives judged insufficient; remaining folds (~2 h CPU) not run. No fracture performance is claimed."}

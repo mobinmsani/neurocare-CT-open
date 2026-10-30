@@ -1,0 +1,488 @@
+{
+ "rows": [
+  {
+   "scan": "CQ500-CT-4",
+   "mask_ml": 62.62,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.081,
+   "share_within_5mm_of_brain_surface": 0.377,
+   "median_depth_mm": 6.8,
+   "craniocaudal_extent_mm": 81.5
+  },
+  {
+   "scan": "CQ500-CT-10",
+   "mask_ml": 3.12,
+   "side": "left",
+   "share_on_side": 0.943,
+   "share_of_half_brain": 0.005,
+   "share_within_5mm_of_brain_surface": 0.002,
+   "median_depth_mm": 15.2,
+   "craniocaudal_extent_mm": 20.2
+  },
+  {
+   "scan": "CQ500-CT-13",
+   "mask_ml": 26.69,
+   "side": "left",
+   "share_on_side": 0.755,
+   "share_of_half_brain": 0.037,
+   "share_within_5mm_of_brain_surface": 0.493,
+   "median_depth_mm": 5.0,
+   "craniocaudal_extent_mm": 96.9
+  },
+  {
+   "scan": "CQ500-CT-15",
+   "mask_ml": 20.08,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.028,
+   "share_within_5mm_of_brain_surface": 0.018,
+   "median_depth_mm": 19.1,
+   "craniocaudal_extent_mm": 35.0
+  },
+  {
+   "scan": "CQ500-CT-22",
+   "mask_ml": 6.11,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.009,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 25.9,
+   "craniocaudal_extent_mm": 30.6
+  },
+  {
+   "scan": "CQ500-CT-35",
+   "mask_ml": 0.31,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.0,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 25.1,
+   "craniocaudal_extent_mm": 8.1
+  },
+  {
+   "scan": "CQ500-CT-40",
+   "mask_ml": 18.21,
+   "side": "right",
+   "share_on_side": 0.941,
+   "share_of_half_brain": 0.025,
+   "share_within_5mm_of_brain_surface": 0.232,
+   "median_depth_mm": 8.4,
+   "craniocaudal_extent_mm": 45.2
+  },
+  {
+   "scan": "CQ500-CT-52",
+   "mask_ml": 1.48,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.002,
+   "share_within_5mm_of_brain_surface": 0.075,
+   "median_depth_mm": 9.2,
+   "craniocaudal_extent_mm": 13.8
+  },
+  {
+   "scan": "CQ500-CT-55",
+   "mask_ml": 32.56,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.044,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 27.3,
+   "craniocaudal_extent_mm": 44.7
+  },
+  {
+   "scan": "CQ500-CT-57",
+   "mask_ml": 3.68,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.005,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 30.3,
+   "craniocaudal_extent_mm": 32.8
+  },
+  {
+   "scan": "CQ500-CT-60",
+   "mask_ml": 10.89,
+   "side": "right",
+   "share_on_side": 0.988,
+   "share_of_half_brain": 0.016,
+   "share_within_5mm_of_brain_surface": 0.061,
+   "median_depth_mm": 24.7,
+   "craniocaudal_extent_mm": 39.7
+  },
+  {
+   "scan": "CQ500-CT-64",
+   "mask_ml": 124.32,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.214,
+   "share_within_5mm_of_brain_surface": 0.383,
+   "median_depth_mm": 6.3,
+   "craniocaudal_extent_mm": 99.0
+  },
+  {
+   "scan": "CQ500-CT-80",
+   "mask_ml": 5.48,
+   "side": "left",
+   "share_on_side": 0.937,
+   "share_of_half_brain": 0.01,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 35.1,
+   "craniocaudal_extent_mm": 34.8
+  },
+  {
+   "scan": "CQ500-CT-90",
+   "mask_ml": 1.58,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.003,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 35.6,
+   "craniocaudal_extent_mm": 17.4
+  },
+  {
+   "scan": "CQ500-CT-95",
+   "mask_ml": 8.94,
+   "side": "left",
+   "share_on_side": 0.735,
+   "share_of_half_brain": 0.014,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 31.9,
+   "craniocaudal_extent_mm": 28.1
+  },
+  {
+   "scan": "CQ500-CT-108",
+   "mask_ml": 450.76,
+   "side": "left",
+   "share_on_side": 0.996,
+   "share_of_half_brain": 0.589,
+   "share_within_5mm_of_brain_surface": 0.141,
+   "median_depth_mm": 13.6,
+   "craniocaudal_extent_mm": 116.3
+  },
+  {
+   "scan": "CQ500-CT-113",
+   "mask_ml": 4.55,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.006,
+   "share_within_5mm_of_brain_surface": 0.267,
+   "median_depth_mm": 7.6,
+   "craniocaudal_extent_mm": 22.7
+  },
+  {
+   "scan": "CQ500-CT-121",
+   "mask_ml": 0.58,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.001,
+   "share_within_5mm_of_brain_surface": 0.059,
+   "median_depth_mm": 11.2,
+   "craniocaudal_extent_mm": 10.0
+  },
+  {
+   "scan": "CQ500-CT-137",
+   "mask_ml": 2.82,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.005,
+   "share_within_5mm_of_brain_surface": 0.848,
+   "median_depth_mm": 3.2,
+   "craniocaudal_extent_mm": 49.4
+  },
+  {
+   "scan": "CQ500-CT-139",
+   "mask_ml": 22.04,
+   "side": "left",
+   "share_on_side": 0.622,
+   "share_of_half_brain": 0.034,
+   "share_within_5mm_of_brain_surface": 0.714,
+   "median_depth_mm": 3.5,
+   "craniocaudal_extent_mm": 38.1
+  },
+  {
+   "scan": "CQ500-CT-159",
+   "mask_ml": 6.74,
+   "side": "left",
+   "share_on_side": 0.999,
+   "share_of_half_brain": 0.011,
+   "share_within_5mm_of_brain_surface": 0.044,
+   "median_depth_mm": 17.4,
+   "craniocaudal_extent_mm": 24.2
+  },
+  {
+   "scan": "CQ500-CT-181",
+   "mask_ml": 35.21,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.055,
+   "share_within_5mm_of_brain_surface": 0.421,
+   "median_depth_mm": 5.8,
+   "craniocaudal_extent_mm": 78.5
+  },
+  {
+   "scan": "CQ500-CT-182",
+   "mask_ml": 4.02,
+   "side": "left",
+   "share_on_side": 0.998,
+   "share_of_half_brain": 0.006,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 20.2,
+   "craniocaudal_extent_mm": 30.6
+  },
+  {
+   "scan": "CQ500-CT-183",
+   "mask_ml": 6.83,
+   "side": "left",
+   "share_on_side": 0.819,
+   "share_of_half_brain": 0.012,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 22.2,
+   "craniocaudal_extent_mm": 35.6
+  },
+  {
+   "scan": "CQ500-CT-187",
+   "mask_ml": 2.42,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.003,
+   "share_within_5mm_of_brain_surface": 0.892,
+   "median_depth_mm": 3.4,
+   "craniocaudal_extent_mm": 46.3
+  },
+  {
+   "scan": "CQ500-CT-196",
+   "mask_ml": 0.54,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.001,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 18.2,
+   "craniocaudal_extent_mm": 17.6
+  },
+  {
+   "scan": "CQ500-CT-202",
+   "mask_ml": 6.1,
+   "side": "right",
+   "share_on_side": 0.622,
+   "share_of_half_brain": 0.007,
+   "share_within_5mm_of_brain_surface": 0.052,
+   "median_depth_mm": 21.9,
+   "craniocaudal_extent_mm": 52.0
+  },
+  {
+   "scan": "CQ500-CT-207",
+   "mask_ml": 18.48,
+   "side": "left",
+   "share_on_side": 0.875,
+   "share_of_half_brain": 0.031,
+   "share_within_5mm_of_brain_surface": 0.102,
+   "median_depth_mm": 17.2,
+   "craniocaudal_extent_mm": 49.2
+  },
+  {
+   "scan": "CQ500-CT-208",
+   "mask_ml": 0.55,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.001,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 26.9,
+   "craniocaudal_extent_mm": 10.1
+  },
+  {
+   "scan": "CQ500-CT-210",
+   "mask_ml": 84.02,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.117,
+   "share_within_5mm_of_brain_surface": 0.504,
+   "median_depth_mm": 4.9,
+   "craniocaudal_extent_mm": 100.5
+  },
+  {
+   "scan": "CQ500-CT-225",
+   "mask_ml": 53.76,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.073,
+   "share_within_5mm_of_brain_surface": 0.001,
+   "median_depth_mm": 26.3,
+   "craniocaudal_extent_mm": 73.8
+  },
+  {
+   "scan": "CQ500-CT-226",
+   "mask_ml": 20.66,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.031,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 29.1,
+   "craniocaudal_extent_mm": 40.9
+  },
+  {
+   "scan": "CQ500-CT-227",
+   "mask_ml": 41.31,
+   "side": "left",
+   "share_on_side": 0.99,
+   "share_of_half_brain": 0.058,
+   "share_within_5mm_of_brain_surface": 0.007,
+   "median_depth_mm": 27.9,
+   "craniocaudal_extent_mm": 43.1
+  },
+  {
+   "scan": "CQ500-CT-236",
+   "mask_ml": 9.03,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.013,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 27.4,
+   "craniocaudal_extent_mm": 41.0
+  },
+  {
+   "scan": "CQ500-CT-237",
+   "mask_ml": 6.32,
+   "side": "left",
+   "share_on_side": 0.682,
+   "share_of_half_brain": 0.01,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 18.7,
+   "craniocaudal_extent_mm": 53.8
+  },
+  {
+   "scan": "CQ500-CT-243",
+   "mask_ml": 68.66,
+   "side": "left",
+   "share_on_side": 0.951,
+   "share_of_half_brain": 0.092,
+   "share_within_5mm_of_brain_surface": 0.373,
+   "median_depth_mm": 6.1,
+   "craniocaudal_extent_mm": 71.6
+  },
+  {
+   "scan": "CQ500-CT-247",
+   "mask_ml": 7.09,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.012,
+   "share_within_5mm_of_brain_surface": 0.125,
+   "median_depth_mm": 9.0,
+   "craniocaudal_extent_mm": 33.0
+  },
+  {
+   "scan": "CQ500-CT-249",
+   "mask_ml": 15.33,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.025,
+   "share_within_5mm_of_brain_surface": 0.0,
+   "median_depth_mm": 30.2,
+   "craniocaudal_extent_mm": 36.5
+  },
+  {
+   "scan": "CQ500-CT-250",
+   "mask_ml": 0.77,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.001,
+   "share_within_5mm_of_brain_surface": 0.742,
+   "median_depth_mm": 3.3,
+   "craniocaudal_extent_mm": 17.2
+  },
+  {
+   "scan": "CQ500-CT-256",
+   "mask_ml": 30.1,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.041,
+   "share_within_5mm_of_brain_surface": 0.115,
+   "median_depth_mm": 15.4,
+   "craniocaudal_extent_mm": 50.1
+  },
+  {
+   "scan": "CQ500-CT-479",
+   "mask_ml": 42.58,
+   "side": "left",
+   "share_on_side": 0.652,
+   "share_of_half_brain": 0.051,
+   "share_within_5mm_of_brain_surface": 0.404,
+   "median_depth_mm": 6.2,
+   "craniocaudal_extent_mm": 110.0
+  },
+  {
+   "scan": "CQ500-CT-480",
+   "mask_ml": 112.32,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.158,
+   "share_within_5mm_of_brain_surface": 0.407,
+   "median_depth_mm": 5.8,
+   "craniocaudal_extent_mm": 91.2
+  },
+  {
+   "scan": "CQ500-CT-485",
+   "mask_ml": 6.05,
+   "side": "left",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.01,
+   "share_within_5mm_of_brain_surface": 0.011,
+   "median_depth_mm": 14.1,
+   "craniocaudal_extent_mm": 40.0
+  }
+ ],
+ "focus": {
+  "CQ500-CT-108": {
+   "scan": "CQ500-CT-108",
+   "mask_ml": 450.76,
+   "side": "left",
+   "share_on_side": 0.996,
+   "share_of_half_brain": 0.589,
+   "share_within_5mm_of_brain_surface": 0.141,
+   "median_depth_mm": 13.6,
+   "craniocaudal_extent_mm": 116.3
+  },
+  "CQ500-CT-187": {
+   "scan": "CQ500-CT-187",
+   "mask_ml": 2.42,
+   "side": "right",
+   "share_on_side": 1.0,
+   "share_of_half_brain": 0.003,
+   "share_within_5mm_of_brain_surface": 0.892,
+   "median_depth_mm": 3.4,
+   "craniocaudal_extent_mm": 46.3
+  }
+ },
+ "reference_distribution": {
+  "share_of_half_brain": {
+   "median": 0.013,
+   "q1": 0.006,
+   "q3": 0.041,
+   "min": 0.0,
+   "max": 0.214
+  },
+  "share_within_5mm_of_brain_surface": {
+   "median": 0.044,
+   "q1": 0.0,
+   "q3": 0.373,
+   "min": 0.0,
+   "max": 0.848
+  },
+  "median_depth_mm": {
+   "median": 17.4,
+   "q1": 6.8,
+   "q3": 26.3,
+   "min": 3.2,
+   "max": 35.6
+  },
+  "craniocaudal_extent_mm": {
+   "median": 39.7,
+   "q1": 28.1,
+   "q3": 52.0,
+   "min": 8.1,
+   "max": 110.0
+  }
+ },
+ "n_reference": 41,
+ "note": "Other analyzed Seg-CQ500 masks (excluding CT-108 and CT-187). Descriptive only; no adjudication."
+}

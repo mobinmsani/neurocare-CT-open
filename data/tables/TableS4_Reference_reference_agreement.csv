@@ -1,0 +1,4 @@
+annotator_a,annotator_b,n_scan_pairs,mean_dice,median_dice,both_empty_pairs
+annot_1,annot_3,43,0.7887265474752507,0.8760768721007289,2
+annot_1,annot_5,43,0.7423904484319302,0.8270502587492325,1
+annot_3,annot_5,43,0.7338861906699374,0.8311921123394084,1

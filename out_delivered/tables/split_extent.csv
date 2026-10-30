@@ -1,0 +1,13 @@
+group,model,tertile,extent_ml_range,split_detected,split_n,unanimous_detected,unanimous_n,sens_split,sens_unan
+all majority positives,v2,1,0.5–54.1,11,18,35,47,0.6111111111111112,0.7446808510638298
+all majority positives,v2,2,54.5–299.4,2,5,56,60,0.4,0.9333333333333333
+all majority positives,v2,3,316.4–1863.6,5,8,54,57,0.625,0.9473684210526315
+all majority positives,public model,1,0.5–54.1,14,18,46,47,0.7777777777777778,0.9787234042553191
+all majority positives,public model,2,54.5–299.4,4,5,60,60,0.8,1.0
+all majority positives,public model,3,316.4–1863.6,8,8,56,57,1.0,0.9824561403508771
+single subtype,v2,1,0.5–26.1,6,12,20,30,0.5,0.6666666666666666
+single subtype,v2,2,28.0–163.8,5,7,31,35,0.7142857142857143,0.8857142857142857
+single subtype,v2,3,167.8–1130.9,5,8,32,35,0.625,0.9142857142857143
+single subtype,public model,1,0.5–26.1,10,12,29,30,0.8333333333333334,0.9666666666666667
+single subtype,public model,2,28.0–163.8,6,7,35,35,0.8571428571428571,1.0
+single subtype,public model,3,167.8–1130.9,8,8,34,35,1.0,0.9714285714285714

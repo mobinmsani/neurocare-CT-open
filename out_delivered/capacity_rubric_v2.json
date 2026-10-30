@@ -1,0 +1,561 @@
+{
+ "summary": {
+  "n": 17,
+  "capacity": {
+   "adequate": 2,
+   "limited": 10,
+   "none": 5
+  },
+  "adequate": [
+   "Any intracranial hemorrhage (scan level)",
+   "Mass effect (presence)"
+  ],
+  "none": [
+   "Volume change on serial or postoperative scans",
+   "Midline shift magnitude (mm)",
+   "Subdural hematoma thickness (mm)",
+   "Fracture localization",
+   "Outcome or added prognostic value"
+  ],
+  "limited": [
+   "Hemorrhage subtype presence (5 subtypes)",
+   "Hemorrhage localization (box level)",
+   "Hemorrhage side",
+   "Voxel segmentation of hemorrhage",
+   "Total hemorrhage volume",
+   "Compartment volume (intraparenchymal, epidural)",
+   "Perihematomal edema volume",
+   "Midline shift >5 mm (presence)",
+   "Basal cisterns, ventricles, herniation",
+   "Skull fracture (scan level)"
+  ],
+  "subtypes_adequate": [
+   "IPH",
+   "SAH"
+  ],
+  "rules": {
+   "kappa_min": 0.61,
+   "binary_min": 35,
+   "continuous_min": 100,
+   "threshold_min": 35,
+   "loa_ci_halfwidth_sd_at_100": 0.339
+  },
+  "changed_from_v1": [
+   "Hemorrhage side"
+  ],
+  "sensitivity": [
+   {
+    "scenario": "kmin=0.55",
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "Midline shift >5 mm (presence): limited -> adequate"
+   },
+   {
+    "scenario": "kmin=0.6",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "kmin=0.65",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "kmin=0.7",
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": "IPH",
+    "changed": "Mass effect (presence): adequate -> limited"
+   },
+   {
+    "scenario": "kmin=0.75",
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": "IPH",
+    "changed": "Mass effect (presence): adequate -> limited"
+   },
+   {
+    "scenario": "Lower 95% bound of kappa >=0.61",
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": "IPH",
+    "changed": "Mass effect (presence): adequate -> limited"
+   },
+   {
+    "scenario": "bmin=25",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, IVH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "bmin=50",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "Positives >=140 (Wilson lower bound 0.90 at an observed sensitivity of 0.95)",
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": "",
+    "changed": "Mass effect (presence): adequate -> limited"
+   },
+   {
+    "scenario": "cmin=50",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "cmin=200",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "tmin=25",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "tmin=50",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "Resources needing a free account counted",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "Releases persisting only in mirrors counted",
+    "adequate": 2,
+    "limited": 11,
+    "none": 4,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "Fracture localization: none -> limited (CT-ICH earlier releases, third-party mirrors (one hospital in Iraq); R1 construct partial; R2 reader agreement not reported; R4 22 positives)"
+   },
+   {
+    "scenario": "Releases that re-host RSNA 2019 images not counted",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "\u2013"
+   },
+   {
+    "scenario": "Releases hosted only on Kaggle not counted",
+    "adequate": 2,
+    "limited": 9,
+    "none": 6,
+    "subtypes_adequate": "IPH, SAH",
+    "changed": "Basal cisterns, ventricles, herniation: limited -> none (R1 no reference measures the endpoint)"
+   }
+  ],
+  "applicability": [
+   {
+    "scenario": "Model developed without these public sources",
+    "excluded_sources": "\u2013",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "rating_changes": "\u2013",
+    "reference_changes": "\u2013",
+    "adequate_endpoints": "Any intracranial hemorrhage (scan level), Mass effect (presence)"
+   },
+   {
+    "scenario": "Model trained on RSNA 2019 data",
+    "excluded_sources": "RSNA2019",
+    "adequate": 2,
+    "limited": 10,
+    "none": 5,
+    "subtypes_adequate": "IPH, SAH",
+    "rating_changes": "\u2013",
+    "reference_changes": "Voxel segmentation of hemorrhage: BleedScene3D instance masks (CQ500 images); Total hemorrhage volume: BleedScene3D instance masks (CQ500 images); Compartment volume (intraparenchymal, epidural): BleedScene3D instance masks with subtype attributes (CQ500 images)",
+    "adequate_endpoints": "Any intracranial hemorrhage (scan level), Mass effect (presence)"
+   },
+   {
+    "scenario": "Model trained or tuned on CQ500",
+    "excluded_sources": "CQ500",
+    "adequate": 0,
+    "limited": 8,
+    "none": 9,
+    "subtypes_adequate": "",
+    "rating_changes": "Any intracranial hemorrhage (scan level): adequate -> limited; Hemorrhage localization (box level): limited -> none; Midline shift >5 mm (presence): limited -> none; Mass effect (presence): adequate -> none; Basal cisterns, ventricles, herniation: limited -> none",
+    "reference_changes": "Hemorrhage subtype presence (5 subtypes): BHSD class masks (RSNA 2019 images); Hemorrhage side: PHE-SICH-CT-IDS documented side (one hospital in China); Skull fracture (scan level): NeuroVision-CT image classes (one hospital in Bangladesh)",
+    "adequate_endpoints": ""
+   },
+   {
+    "scenario": "Model trained on RSNA 2019 and CQ500",
+    "excluded_sources": "RSNA2019, CQ500",
+    "adequate": 0,
+    "limited": 6,
+    "none": 11,
+    "subtypes_adequate": "",
+    "rating_changes": "Any intracranial hemorrhage (scan level): adequate -> limited; Hemorrhage subtype presence (5 subtypes): limited -> none; Hemorrhage localization (box level): limited -> none; Compartment volume (intraparenchymal, epidural): limited -> none; Midline shift >5 mm (presence): limited -> none; Mass effect (presence): adequate -> none; Basal cisterns, ventricles, herniation: limited -> none",
+    "reference_changes": "Hemorrhage side: PHE-SICH-CT-IDS documented side (one hospital in China); Voxel segmentation of hemorrhage: R\u00edo Hortega aneurysmal SAH masks (one hospital in Spain); Total hemorrhage volume: R\u00edo Hortega aneurysmal SAH masks (one hospital in Spain); Skull fracture (scan level): NeuroVision-CT image classes (one hospital in Bangladesh)",
+    "adequate_endpoints": ""
+   }
+  ]
+ },
+ "rows": [
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Any intracranial hemorrhage (scan level)",
+   "type": "binary",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "adequate",
+   "unmet": "\u2013",
+   "subtypes_adequate": [],
+   "evidence_here": "external",
+   "estimate": "AUC 0.81 (v2), 0.82 (v3b), 0.98 (public model)"
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage subtype presence (5 subtypes)",
+   "type": "binary_subtype",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "adequate only for IPH and SAH; IVH: R4 28 positives; SDH: R2 kappa 0.542 < 0.61; EDH: R4 13 positives",
+   "subtypes_adequate": [
+    "IPH",
+    "SAH"
+   ],
+   "evidence_here": "external",
+   "estimate": "within-ICH AUC 0.72\u20130.91 (post hoc v3b)"
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage localization (box level)",
+   "type": "binary",
+   "best_reference": "BHX boxes on CQ500 (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "R1 construct partial; R2 reader agreement not reported",
+   "subtypes_adequate": [],
+   "evidence_here": "exploratory",
+   "estimate": "any v2 voxel in 17\u201377% of boxes (proxy; binary model)"
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage side",
+   "type": "side",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "R2 kappa among hemorrhage-positive scans 0.543 < 0.61",
+   "subtypes_adequate": [],
+   "evidence_here": "external",
+   "estimate": "correct side 0.89 (CQ500); 0.97 (PHE-SICH-CT-IDS)"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Voxel segmentation of hemorrhage",
+   "type": "segmentation",
+   "best_reference": "MBH-Seg 2025 training masks, two to four raters (RSNA 2019 images)",
+   "capacity": "limited",
+   "unmet": "R3 no negatives",
+   "subtypes_adequate": [],
+   "evidence_here": "internal or transfer",
+   "estimate": "Dice 0.46 (BHSD), 0.49 (Seg-CQ500)"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Total hemorrhage volume",
+   "type": "segmentation",
+   "best_reference": "MBH-Seg 2025 training masks, two to four raters (RSNA 2019 images)",
+   "capacity": "limited",
+   "unmet": "R3 no negatives",
+   "subtypes_adequate": [],
+   "evidence_here": "internal or transfer",
+   "estimate": "ICC 0.86 (BHSD); 0.10 or 0.68 (Seg-CQ500)"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Compartment volume (intraparenchymal, epidural)",
+   "type": "continuous_threshold",
+   "best_reference": "MBH-Seg 2025 training class masks, two to four raters (RSNA 2019 images)",
+   "capacity": "limited",
+   "unmet": "R3 IPH >=30 mL (ICH score, MISTIE III): 34 cases; IPH 30-80 mL (ENRICH): 29 cases; EDH >30 mL (evacuation): 2 cases; R4 EDH 23 measured cases",
+   "subtypes_adequate": [],
+   "evidence_here": "internal or transfer",
+   "estimate": "IPH ICC 0.87; kappa 0.62 at 30 mL (post hoc v3b)"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Volume change on serial or postoperative scans",
+   "type": "continuous_threshold",
+   "best_reference": "none",
+   "capacity": "none",
+   "unmet": "R1 no reference measures the endpoint",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Perihematomal edema volume",
+   "type": "continuous",
+   "best_reference": "PHE-SICH-CT-IDS edema masks (one hospital in China)",
+   "capacity": "limited",
+   "unmet": "R2 one annotation per case",
+   "subtypes_adequate": [],
+   "evidence_here": "internal or transfer",
+   "estimate": "Dice 0.34 (37 held-out patients)"
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Midline shift >5 mm (presence)",
+   "type": "binary",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "R2 kappa 0.595 < 0.61",
+   "subtypes_adequate": [],
+   "evidence_here": "exploratory",
+   "estimate": "CSF-offset distance AUC 0.89 (ranking only)"
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Mass effect (presence)",
+   "type": "binary",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "adequate",
+   "unmet": "\u2013",
+   "subtypes_adequate": [],
+   "evidence_here": "exploratory",
+   "estimate": "AUC 0.81\u20130.85 (CSF-offset distance, volume)"
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Midline shift magnitude (mm)",
+   "type": "continuous_threshold",
+   "best_reference": "none",
+   "capacity": "none",
+   "unmet": "R1 no reference measures the endpoint",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified (millimeter values for 509 RSNA 2019 and 92 CQ500 scans available only on request)"
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Subdural hematoma thickness (mm)",
+   "type": "continuous_threshold",
+   "best_reference": "none",
+   "capacity": "none",
+   "unmet": "R1 no reference measures the endpoint",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified"
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Basal cisterns, ventricles, herniation",
+   "type": "binary",
+   "best_reference": "BleedScene3D ventricle masks and asymmetry relation (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "R1 construct partial; R2 reader agreement not reported",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "ventricle masks and asymmetry relation only (BleedScene3D)"
+  },
+  {
+   "domain": "Fracture",
+   "endpoint": "Skull fracture (scan level)",
+   "type": "binary",
+   "best_reference": "CQ500 reader labels (CQ500 images)",
+   "capacity": "limited",
+   "unmet": "R2 kappa 0.437 < 0.61",
+   "subtypes_adequate": [],
+   "evidence_here": "exploratory",
+   "estimate": "pilot stopped (AUC 0.51)"
+  },
+  {
+   "domain": "Fracture",
+   "endpoint": "Fracture localization",
+   "type": "binary",
+   "best_reference": "none",
+   "capacity": "none",
+   "unmet": "R1 no reference measures the endpoint",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified"
+  },
+  {
+   "domain": "Outcome",
+   "endpoint": "Outcome or added prognostic value",
+   "type": "binary",
+   "best_reference": "none",
+   "capacity": "none",
+   "unmet": "R1 no reference measures the endpoint",
+   "subtypes_adequate": [],
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified"
+  }
+ ],
+ "comparison": [
+  {
+   "endpoint": "Any intracranial hemorrhage (scan level)",
+   "v1_capacity": "adequate",
+   "v1_limiting": "\u2013",
+   "v2_capacity": "adequate",
+   "v2_unmet": "\u2013",
+   "changed": false
+  },
+  {
+   "endpoint": "Hemorrhage subtype presence (5 subtypes)",
+   "v1_capacity": "limited",
+   "v1_limiting": "adequate only for IPH and SAH; IVH 28 positives; SDH kappa 0.542; EDH 13 positives",
+   "v2_capacity": "limited",
+   "v2_unmet": "adequate only for IPH and SAH; IVH: R4 28 positives; SDH: R2 kappa 0.542 < 0.61; EDH: R4 13 positives",
+   "changed": false
+  },
+  {
+   "endpoint": "Hemorrhage localization (box level)",
+   "v1_capacity": "limited",
+   "v1_limiting": "construct (partial); <35 positives; reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R1 construct partial; R2 reader agreement not reported",
+   "changed": false
+  },
+  {
+   "endpoint": "Hemorrhage side",
+   "v1_capacity": "adequate",
+   "v1_limiting": "\u2013",
+   "v2_capacity": "limited",
+   "v2_unmet": "R2 kappa among hemorrhage-positive scans 0.543 < 0.61",
+   "changed": true
+  },
+  {
+   "endpoint": "Voxel segmentation of hemorrhage",
+   "v1_capacity": "limited",
+   "v1_limiting": "no negatives; reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R3 no negatives",
+   "changed": false
+  },
+  {
+   "endpoint": "Total hemorrhage volume",
+   "v1_capacity": "limited",
+   "v1_limiting": "no negatives; reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R3 no negatives",
+   "changed": false
+  },
+  {
+   "endpoint": "Compartment volume (intraparenchymal, epidural)",
+   "v1_capacity": "limited",
+   "v1_limiting": "<35 positives; reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R3 IPH >=30 mL (ICH score, MISTIE III): 34 cases; IPH 30-80 mL (ENRICH): 29 cases; EDH >30 mL (evacuation): 2 cases; R4 EDH 23 measured cases",
+   "changed": false
+  },
+  {
+   "endpoint": "Volume change on serial or postoperative scans",
+   "v1_capacity": "none",
+   "v1_limiting": "no open reference",
+   "v2_capacity": "none",
+   "v2_unmet": "R1 no reference measures the endpoint",
+   "changed": false
+  },
+  {
+   "endpoint": "Perihematomal edema volume",
+   "v1_capacity": "limited",
+   "v1_limiting": "reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R2 one annotation per case",
+   "changed": false
+  },
+  {
+   "endpoint": "Midline shift >5 mm (presence)",
+   "v1_capacity": "limited",
+   "v1_limiting": "reliability kappa below 0.61",
+   "v2_capacity": "limited",
+   "v2_unmet": "R2 kappa 0.595 < 0.61",
+   "changed": false
+  },
+  {
+   "endpoint": "Mass effect (presence)",
+   "v1_capacity": "adequate",
+   "v1_limiting": "\u2013",
+   "v2_capacity": "adequate",
+   "v2_unmet": "\u2013",
+   "changed": false
+  },
+  {
+   "endpoint": "Midline shift magnitude (mm)",
+   "v1_capacity": "none",
+   "v1_limiting": "no open reference",
+   "v2_capacity": "none",
+   "v2_unmet": "R1 no reference measures the endpoint",
+   "changed": false
+  },
+  {
+   "endpoint": "Subdural hematoma thickness (mm)",
+   "v1_capacity": "none",
+   "v1_limiting": "no open reference",
+   "v2_capacity": "none",
+   "v2_unmet": "R1 no reference measures the endpoint",
+   "changed": false
+  },
+  {
+   "endpoint": "Basal cisterns, ventricles, herniation",
+   "v1_capacity": "limited",
+   "v1_limiting": "construct (partial); reliability unknown",
+   "v2_capacity": "limited",
+   "v2_unmet": "R1 construct partial; R2 reader agreement not reported",
+   "changed": false
+  },
+  {
+   "endpoint": "Skull fracture (scan level)",
+   "v1_capacity": "limited",
+   "v1_limiting": "reliability kappa below 0.61",
+   "v2_capacity": "limited",
+   "v2_unmet": "R2 kappa 0.437 < 0.61",
+   "changed": false
+  },
+  {
+   "endpoint": "Fracture localization",
+   "v1_capacity": "none",
+   "v1_limiting": "no open reference",
+   "v2_capacity": "none",
+   "v2_unmet": "R1 no reference measures the endpoint",
+   "changed": false
+  },
+  {
+   "endpoint": "Outcome or added prognostic value",
+   "v1_capacity": "none",
+   "v1_limiting": "no open reference",
+   "v2_capacity": "none",
+   "v2_unmet": "R1 no reference measures the endpoint",
+   "changed": false
+  }
+ ]
+}

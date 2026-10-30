@@ -1,0 +1,146 @@
+{
+ "release": "MBH-Seg 2025 training release, voxel-level part",
+ "volumes": 192,
+ "masks": 471,
+ "raters_per_volume": {
+  "2": 111,
+  "3": 75,
+  "4": 6
+ },
+ "masks_per_rater": {
+  "annot_1": 120,
+  "annot_2": 115,
+  "annot_3": 192,
+  "annot_4": 44
+ },
+ "geometry_mismatches": 0,
+ "other_label_voxels": 0,
+ "label_check": {
+  "bhsd_test_ids_shared": 95,
+  "per_rater": {
+   "annot_1": {
+    "n": 58,
+    "mean_max_abs_diff_ml": 8.2846295806483
+   },
+   "annot_2": {
+    "n": 57,
+    "mean_max_abs_diff_ml": 10.556134909211128
+   },
+   "annot_3": {
+    "n": 95,
+    "mean_max_abs_diff_ml": 3.74699742737462
+   },
+   "annot_4": {
+    "n": 20,
+    "mean_max_abs_diff_ml": 6.865429671872498
+   }
+  },
+  "closest_rater": "annot_3",
+  "class_r": {
+   "EDH": 0.98396935642343,
+   "IPH": 0.9833206802259045,
+   "IVH": 0.9913767021436062,
+   "SAH": 0.9867930156488383,
+   "SDH": 0.9800105283117733
+  },
+  "offdiag_r_max": 0.43128253071128114
+ },
+ "negative_all_raters": 0,
+ "positive_any_rater": 192,
+ "positive_all_raters": 190,
+ "class_present_majority": {
+  "EDH": 23,
+  "IPH": 131,
+  "IVH": 118,
+  "SAH": 120,
+  "SDH": 88
+ },
+ "thresholds": [
+  [
+   "IPH >=30 mL (ICH score, MISTIE III)",
+   34,
+   97
+  ],
+  [
+   "IPH 30-80 mL (ENRICH)",
+   29,
+   102
+  ],
+  [
+   "EDH >30 mL (evacuation)",
+   2,
+   21
+  ]
+ ],
+ "dice_pairs": 372,
+ "dice_median": 0.7203937997233116,
+ "dice_iqr": [
+  0.5668057432763315,
+  0.8513320636447308
+ ],
+ "case_mean_dice_median": 0.7538569949791927,
+ "pair_icc": {
+  "annot_1-annot_2": {
+   "n": 43,
+   "icc": 0.9739494362972059,
+   "bias": 2.6199086150527,
+   "loa": [
+    -11.394956823551702,
+    16.6347740536571
+   ],
+   "loa_width": 28.029730877208802,
+   "iph30_both": 6,
+   "iph30_discordant": 0,
+   "iph_present": 30
+  },
+  "annot_1-annot_3": {
+   "n": 120,
+   "icc": 0.9689727078489985,
+   "bias": -3.4357090449690815,
+   "loa": [
+    -23.645769695167097,
+    16.774351605228937
+   ],
+   "loa_width": 40.42012130039603,
+   "iph30_both": 24,
+   "iph30_discordant": 0,
+   "iph_present": 81
+  },
+  "annot_2-annot_3": {
+   "n": 115,
+   "icc": 0.8729941507465173,
+   "bias": -2.324559528658183,
+   "loa": [
+    -38.62187229545621,
+    33.97275323813984
+   ],
+   "loa_width": 72.59462553359604,
+   "iph30_both": 16,
+   "iph30_discordant": 1,
+   "iph_present": 81
+  },
+  "annot_3-annot_4": {
+   "n": 44,
+   "icc": 0.8323239514035204,
+   "bias": 6.259963202874769,
+   "loa": [
+    -36.41937264543986,
+    48.9392990511894
+   ],
+   "loa_width": 85.35867169662926,
+   "iph30_both": 7,
+   "iph30_discordant": 1,
+   "iph_present": 28
+  }
+ },
+ "loa_width_range": [
+  28.029730877208802,
+  85.35867169662926
+ ],
+ "icc_range": [
+  0.8323239514035204,
+  0.9739494362972059
+ ],
+ "iph30_discordant_max": 1,
+ "bhsd_scans_shared": 186
+}

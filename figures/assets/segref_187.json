@@ -1,0 +1,14 @@
+{
+ "key": "segref_187",
+ "case": "CQ500-CT-187",
+ "slice_index": 96,
+ "n_slices": 256,
+ "pixel_mm": [
+  0.46875,
+  0.46875
+ ],
+ "slice_mm": 0.6250039339065552,
+ "mask_area_cm2": 1.37,
+ "window": "level 40, width 80 HU",
+ "source": "Seg-CQ500 released image and reference mask (CC BY-NC-SA 4.0 images from CQ500)"
+}

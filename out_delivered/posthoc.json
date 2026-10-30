@@ -1,0 +1,263 @@
+{
+ "sah_overcall_range": [
+  0.6511627906976745,
+  0.9230769230769231
+ ],
+ "ambiguity_by_extent": [
+  {
+   "votes": "2 of 3",
+   "stratum": "all",
+   "n": 37,
+   "detected": 20,
+   "sens": 0.5405405405405406,
+   "lo": 0.3838404689217949,
+   "hi": 0.6896143019562697,
+   "median_volume_ml": 1.153
+  },
+  {
+   "votes": "2 of 3",
+   "stratum": "no subtype label",
+   "n": 4,
+   "detected": 2,
+   "sens": 0.5,
+   "lo": 0.15003898915214947,
+   "hi": 0.8499610108478506,
+   "median_volume_ml": 1.819
+  },
+  {
+   "votes": "2 of 3",
+   "stratum": "single subtype",
+   "n": 33,
+   "detected": 18,
+   "sens": 0.5454545454545454,
+   "lo": 0.37985938536217456,
+   "hi": 0.7015706148612388,
+   "median_volume_ml": 1.153
+  },
+  {
+   "votes": "2 of 3",
+   "stratum": "two or more subtypes",
+   "n": 0,
+   "detected": 0,
+   "sens": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "median_volume_ml": NaN
+  },
+  {
+   "votes": "3 of 3",
+   "stratum": "all",
+   "n": 168,
+   "detected": 148,
+   "sens": 0.8809523809523809,
+   "lo": 0.8232735714942908,
+   "hi": 0.9215990621439051,
+   "median_volume_ml": 9.489999999999998
+  },
+  {
+   "votes": "3 of 3",
+   "stratum": "no subtype label",
+   "n": 2,
+   "detected": 2,
+   "sens": 1.0,
+   "lo": 0.34238022750665303,
+   "hi": 1.0,
+   "median_volume_ml": 18.694
+  },
+  {
+   "votes": "3 of 3",
+   "stratum": "single subtype",
+   "n": 103,
+   "detected": 85,
+   "sens": 0.8252427184466019,
+   "lo": 0.7405963558470099,
+   "hi": 0.8865010344314423,
+   "median_volume_ml": 5.244
+  },
+  {
+   "votes": "3 of 3",
+   "stratum": "two or more subtypes",
+   "n": 63,
+   "detected": 61,
+   "sens": 0.9682539682539683,
+   "lo": 0.8914352295339257,
+   "hi": 0.9912504724384196,
+   "median_volume_ml": 36.826
+  }
+ ],
+ "single_subtype_sens_diff": [
+  0.2797881729920565,
+  0.10220091604962517,
+  0.45635073505807455
+ ],
+ "single_subtype_fisher_p": 0.002091949756346651,
+ "split_positives_max_subtypes": 1,
+ "unanimous_positives_multi": 63,
+ "neg_call": {
+  "k0": [
+   101,
+   243
+  ],
+  "k1": [
+   14,
+   41
+  ],
+  "k0_ci": [
+   0.35545619261448563,
+   0.47844529137495045
+  ],
+  "k1_ci": [
+   0.21558808257384846,
+   0.49450163480170306
+  ],
+  "diff": [
+   -0.07417444544815815,
+   -0.21484915051936385,
+   0.09027168534019661
+  ],
+  "median": [
+   0.618,
+   0.509
+  ],
+  "mannwhitney_p": 0.24004383212820835
+ },
+ "within_ich_delong": {
+  "EDH": {
+   "p_raw": 0.4189191582251459,
+   "p_holm": 0.8378383164502918,
+   "diff": [
+    0.08293269230769229,
+    -0.11816285243451577,
+    0.2840282370499003
+   ]
+  },
+  "IPH": {
+   "p_raw": 9.751736832725152e-07,
+   "p_holm": 3.900694733090061e-06,
+   "diff": [
+    0.15592810594912765,
+    0.09351448831516529,
+    0.21834172358309
+   ]
+  },
+  "IVH": {
+   "p_raw": 0.9142769652245818,
+   "p_holm": 0.9142769652245818,
+   "diff": [
+    -0.003732849071832134,
+    -0.0716990444236175,
+    0.06423334627995324
+   ]
+  },
+  "SAH": {
+   "p_raw": 0.0006525697151158952,
+   "p_holm": 0.0019577091453476855,
+   "diff": [
+    0.10241379310344811,
+    0.04352819250583092,
+    0.1612993937010653
+   ]
+  },
+  "SDH": {
+   "p_raw": 1.206510665480566e-12,
+   "p_holm": 6.03255332740283e-12,
+   "diff": [
+    0.33565044687189677,
+    0.2430540136760168,
+    0.4282468800677767
+   ]
+  }
+ },
+ "ppv_counterfactual": {
+  "se_B1": 0.8285714285714286,
+  "sp_B1": 0.5561797752808989,
+  "prev_B1": 0.1643192488262911,
+  "ppv_B1": 0.26851851851851855,
+  "se_B2": 0.8176470588235294,
+  "sp_B2": 0.660377358490566,
+  "prev_B2": 0.6159420289855072,
+  "ppv_B2": 0.7942857142857143,
+  "ppv_cf": 0.32129217158343976,
+  "ppv_cf_ci": [
+   0.22726486075517716,
+   0.4295938853139442
+  ],
+  "gap_total": 0.5257671957671957,
+  "gap_prevalence": 0.4729935427022745,
+  "gap_operating_point": 0.05277365306492121,
+  "share_prevalence": 0.899625435953808,
+  "share_prevalence_ci": [
+   0.7619575809034014,
+   1.0331236747192545
+  ],
+  "B": 10000,
+  "seed": 20261028
+ },
+ "bound_examples": {
+  "35/35": 0.9010990076755959,
+  "34/34": 0.8984854458466761,
+  "132/139": 0.899701627531115,
+  "133/140": 0.9003926927042931,
+  "114/120": 0.8951971146376326,
+  "152/160": 0.9044490208244798,
+  "13/13": 0.7719046276458016,
+  "28/28": 0.8793566952341543,
+  "19/19": 0.8318207759473837
+ },
+ "n_exact95_for_090": 140,
+ "bhx_subtype_discordance": [
+  {
+   "bhx_label": "Subarachnoid",
+   "cq500_label": "SAH",
+   "bhx_scans_with_boxes": 118,
+   "cq500_majority_positive_scans": 60,
+   "min_scans_with_bhx_box_without_majority_label": 58
+  },
+  {
+   "bhx_label": "Subdural",
+   "cq500_label": "SDH",
+   "bhx_scans_with_boxes": 89,
+   "cq500_majority_positive_scans": 53,
+   "min_scans_with_bhx_box_without_majority_label": 36
+  },
+  {
+   "bhx_label": "Intraventricular",
+   "cq500_label": "IVH",
+   "bhx_scans_with_boxes": 43,
+   "cq500_majority_positive_scans": 28,
+   "min_scans_with_bhx_box_without_majority_label": 15
+  },
+  {
+   "bhx_label": "Intraparenchymal",
+   "cq500_label": "IPH",
+   "bhx_scans_with_boxes": 126,
+   "cq500_majority_positive_scans": 134,
+   "min_scans_with_bhx_box_without_majority_label": 0
+  },
+  {
+   "bhx_label": "Epidural",
+   "cq500_label": "EDH",
+   "bhx_scans_with_boxes": 6,
+   "cq500_majority_positive_scans": 13,
+   "min_scans_with_bhx_box_without_majority_label": 0
+  },
+  {
+   "bhx_label": "Chronic",
+   "cq500_label": "ChronicBleed",
+   "bhx_scans_with_boxes": 31,
+   "cq500_majority_positive_scans": 19,
+   "min_scans_with_bhx_box_without_majority_label": 12
+  }
+ ],
+ "bhx_scans_matched": 224,
+ "bhx_ich_discordance_min": 19,
+ "bhsd_largest_miss": {
+  "case": "ID_f335b6db_ID_d180629430",
+  "ref_ml": 50.07414742876307,
+  "v2_pred_ml": 0.4621556551259983,
+  "subtype": "SDH",
+  "v3b_any_dice": 0.667177641876301,
+  "n_zero_v2": 11,
+  "n_zero_v2_lt10": 10
+ }
+}

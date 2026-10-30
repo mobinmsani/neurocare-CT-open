@@ -1,0 +1,292 @@
+{
+ "title": "Head CT resources with hemorrhage- or fracture-related references: access, license and use in this study (checked 26–29 October 2026)",
+ "rows": [
+  {
+   "resource": "BHSD",
+   "images": "RSNA 2019 images; 192 voxel-labeled scans plus unlabeled scans",
+   "reference": "Five-class voxel masks (residents; board-certified radiologist review)",
+   "access": "Open download (Hugging Face); license: MIT tag; re-hosts RSNA images",
+   "role": "Probed: training and internal test",
+   "cite": [
+    "wu2023bhsd"
+   ]
+  },
+  {
+   "resource": "MR-BHSD and training release (MBH-Seg 2025)",
+   "images": "RSNA 2019-derived; 48 validation scans (MR-BHSD), not among the 192 BHSD scans; 192 training volumes, including 186 of the 188 BHSD scans analyzed here",
+   "reference": "Multi-class voxel masks from three raters per scan (validation release) and from two to four of four raters per scan (training release; 471 masks); case-level labels",
+   "access": "Open download (Hugging Face, ungated); license: MIT tag (the challenge design document states CC BY-NC-ND); re-hosts RSNA images",
+   "role": "Probed: transfer (validation release); capacity rating and between-rater agreement (training release)",
+   "cite": [
+    "mbhseg2025",
+    "data_mrbhsd",
+    "data_mbhsegtrain"
+   ]
+  },
+  {
+   "resource": "Seg-CQ500",
+   "images": "51 CQ500 scans",
+   "reference": "Binary hemorrhage voxel masks, one per scan",
+   "access": "Open download (Zenodo, 10.5281/zenodo.8063221); license: CC BY 4.0",
+   "role": "Probed: transfer",
+   "cite": [
+    "spahr2023"
+   ]
+  },
+  {
+   "resource": "CQ500",
+   "images": "491 scans, New Delhi; consecutive and enriched batches",
+   "reference": "Scan-level labels from three readers (ICH, subtypes, side, fracture, mass effect, midline shift >5 mm)",
+   "access": "Open download (Academic Torrents, with click-through terms; Kaggle); license: CC BY-NC-SA 4.0",
+   "role": "Probed: external",
+   "cite": [
+    "chilamkurthy2018"
+   ]
+  },
+  {
+   "resource": "BHX",
+   "images": "CQ500 images",
+   "reference": "Subtype bounding boxes from three neuroradiologists (thick slices, extrapolated to thin)",
+   "access": "Open download (PhysioNet, 10.13026/9cft-hg92); license: CC BY-SA 4.0",
+   "role": "Probed: external (box level)",
+   "cite": [
+    "reis2020bhx"
+   ]
+  },
+  {
+   "resource": "PHE-SICH-CT-IDS",
+   "images": "120 patients with spontaneous basal-ganglia hemorrhage, one hospital",
+   "reference": "Perihematomal edema masks; documented side; no expansion or outcome data in the released file",
+   "access": "Open download (figshare, 10.6084/m9.figshare.23957937.v4); license: CC BY 4.0",
+   "role": "Probed: patient level",
+   "cite": [
+    "ma2024phe"
+   ]
+  },
+  {
+   "resource": "BleedScene3D",
+   "images": "574 hemorrhage-positive volumes from BHSD, CQ500, HemSeg-200, INSTANCE 2022 and CT-ICH (annotations only)",
+   "reference": "Bleeding-instance masks with six subtype attributes; ventricle-system and midline masks; categorical relations (midline shift, flow into ventricles, ventricle asymmetry); no measurements",
+   "access": "Open download (Kaggle), released 23 October 2026; license: CC BY-NC-SA 4.0",
+   "role": "Capacity rubric; comparison with CQ500 labels",
+   "cite": [
+    "bleedscene2026",
+    "sanner2024"
+   ]
+  },
+  {
+   "resource": "INSTANCE 2022",
+   "images": "200 volumes (100 training, 30 validation, 70 closed test), all hemorrhage-positive, one hospital, Beijing",
+   "reference": "Hemorrhage voxel masks (annotations merged by majority vote)",
+   "access": "Registration and signed data use agreement (Grand Challenge), also after the organizers released the data to the public in September 2026; license: CC BY-NC-ND (as stated)",
+   "role": "Rated with resources that need an agreement (not counted)",
+   "cite": [
+    "li2023instance",
+    "li2022jbhi"
+   ]
+  },
+  {
+   "resource": "RSNA ICH/IVH/PHE segmentation (MSICH)",
+   "images": "359 RSNA 2019 examinations (357 patients)",
+   "reference": "ICH, IVH and perihematomal edema voxel masks (neuroradiologist reference)",
+   "access": "Announced, not yet released (dataset DOI registered 21 October 2026; download page not live on 28 October 2026); license: not stated",
+   "role": "Not available",
+   "cite": [
+    "wu2026msich"
+   ]
+  },
+  {
+   "resource": "RSNA 2019 Brain CT Hemorrhage",
+   "images": "25,312 examinations from three institutions",
+   "reference": "Slice-level labels for any hemorrhage and five subtypes",
+   "access": "Account and click-through (Kaggle; RSNA MIRA); license: non-commercial; no redistribution",
+   "role": "Source of the BHSD and MR-BHSD images; account-only scenario",
+   "cite": [
+    "flanders2020"
+   ]
+  },
+  {
+   "resource": "HemSeg-200/500",
+   "images": "RSNA 2019 images",
+   "reference": "IPH and IVH voxel masks",
+   "access": "Labels open (GitHub); images require a Kaggle account (RSNA 2019 competition); license: no license file",
+   "role": "Account-only scenario (RSNA-derived)",
+   "cite": [
+    "song2024hemseg"
+   ]
+  },
+  {
+   "resource": "Río Hortega aneurysmal SAH",
+   "images": "100 scans, one hospital, Spain",
+   "reference": "SAH voxel masks; no outcomes released",
+   "access": "Open download (Zenodo, 10.5281/zenodo.8228847); license: CC BY 4.0",
+   "role": "Rated in the capacity rubric (aneurysmal SAH only); not probed",
+   "cite": [
+    "cepeda2023sah"
+   ]
+  },
+  {
+   "resource": "TEKNOFEST-2021 stroke",
+   "images": "6,951 two-dimensional slices, Turkish Ministry of Health",
+   "reference": "Two-dimensional hemorrhage and ischemia masks (seven radiologists)",
+   "access": "Open download (Ministry of Health open-data portal); license: Ministry of Health open-data Attribution License 1.0 (based on CC BY 4.0)",
+   "role": "Rated in the capacity rubric (two-dimensional slices); not probed",
+   "cite": [
+    "koc2022teknofest"
+   ]
+  },
+  {
+   "resource": "CT-ICH (PhysioNet, version 1.3.1)",
+   "images": "82 scans collected (36 with hemorrhage), 75 released; one hospital, Iraq",
+   "reference": "Hemorrhage masks; slice-level subtype and skull-fracture labels (two radiologists, consensus)",
+   "access": "Registration and signed data use agreement; license: PhysioNet Restricted Health Data License 1.5.0",
+   "role": "Not open; only slice-level fracture reference found",
+   "cite": [
+    "hssayeni2020",
+    "hssayeni2020data"
+   ]
+  },
+  {
+   "resource": "CT-ICH earlier versions (1.0.0, 1.2.0 and 1.3.0)",
+   "images": "As above, released before the faces were de-identified",
+   "reference": "As above (fracture labels on 195–196 slices in 22 patients)",
+   "access": "Files no longer available from PhysioNet; third-party mirrors persist; license: CC BY 4.0 (at release)",
+   "role": "Not counted (no longer available from the host); scenario",
+   "cite": [
+    "hssayeni2020data"
+   ]
+  },
+  {
+   "resource": "MosMed brain CT hemorrhage",
+   "images": "800 studies (400 with, 400 without hemorrhage), Moscow",
+   "reference": "Study-level hemorrhage subtypes and skull fracture (two radiologists)",
+   "access": "Public repository according to its authors; access not confirmed; license: non-commercial, no derivatives (per paper)",
+   "role": "Not verified",
+   "cite": [
+    "khoruzhaya2024"
+   ]
+  },
+  {
+   "resource": "Gençtürk et al. midline shift",
+   "images": "1,344 RSNA 2019 scans (509 with shift) and the 92 CQ500 scans with shift",
+   "reference": "Midline-shift presence; millimeter shift measured by one neurosurgeon in scans with shift",
+   "access": "On request: described by its authors as labeled open data, but the data availability statement provides the underlying data only on request (checked 29 October 2026); license: not stated",
+   "role": "Rated as not open",
+   "cite": [
+    "gencturk2026"
+   ]
+  },
+  {
+   "resource": "Wang et al. CQ500 midline subset",
+   "images": "126 CQ500 subjects",
+   "reference": "Midline delineations on 10 slices per subject",
+   "access": "Not released (code only); license: –",
+   "role": "Not available",
+   "cite": [
+    "wang2020midline"
+   ]
+  },
+  {
+   "resource": "RSNA 2019+ and CQ500+",
+   "images": "RSNA 2019 and CQ500 images",
+   "reference": "Subtype bounding boxes (175,125 on RSNA 2019 images; 4,707 on CQ500 images), drawn jointly by two radiologists, with a third resolving disagreements",
+   "access": "Website named in the publication (multi-lesions.top) returned an error page on 29 October 2026 (reported accessible in November 2025); license: not stated",
+   "role": "Not available",
+   "cite": [
+    "liu2025",
+    "lee2026"
+   ]
+  },
+  {
+   "resource": "TBI-IT",
+   "images": "Multicenter, China",
+   "reference": "Midline, hematoma, ventricle and fracture masks",
+   "access": "Not located (no access statement); license: –",
+   "role": "Not available",
+   "cite": [
+    "li2024tbiit"
+   ]
+  },
+  {
+   "resource": "HICH-IT",
+   "images": "Hypertensive intracerebral hemorrhage, China",
+   "reference": "Midline, hematoma and ventricle masks",
+   "access": "On request (github.com/CYBUS123456/HICH-IT-Datasets; public part partly fictionalized); license: –",
+   "role": "Not available",
+   "cite": [
+    "li2024hichit"
+   ]
+  },
+  {
+   "resource": "TICH-2",
+   "images": "1,732 baseline CT scans, 124 centers",
+   "reference": "Hemorrhage, edema and IVH masks; trial outcomes",
+   "access": "On request (proposal and data transfer agreement); license: restricted",
+   "role": "Not open",
+   "cite": [
+    "kok2022tich",
+    "sprigg2018tich2"
+   ]
+  },
+  {
+   "resource": "CENTER-TBI",
+   "images": "European multicenter cohort",
+   "reference": "Imaging with clinical outcomes",
+   "access": "Application (controlled access); license: data use agreement",
+   "role": "Not open",
+   "cite": [
+    "maas2015center"
+   ]
+  },
+  {
+   "resource": "TRACK-TBI (FITBIR)",
+   "images": "US multicenter cohort",
+   "reference": "Imaging with clinical outcomes",
+   "access": "Application (controlled access); license: data use certification",
+   "role": "Not open",
+   "cite": [
+    "yue2013track"
+   ]
+  },
+  {
+   "resource": "Hemorica",
+   "images": "372 examinations, one hospital, Iran",
+   "reference": "Hemorrhage labels and masks (first version)",
+   "access": "Not located (the first preprint version gave no data link; preprint withdrawn 6 November 2025); license: –",
+   "role": "Not available",
+   "cite": [
+    "hemorica2025"
+   ]
+  },
+  {
+   "resource": "NeuroVision-CT",
+   "images": "5,000 original two-dimensional images (6,500 released with augmented copies), one hospital, Bangladesh",
+   "reference": "Image-level classes including skull fracture (one emergency medical officer)",
+   "access": "Open download (Mendeley Data); license: CC BY 4.0",
+   "role": "Rated in the capacity rubric (image level); not probed",
+   "cite": [
+    "neurovision2026"
+   ]
+  },
+  {
+   "resource": "Third-party CQ500 derivatives (Kaggle)",
+   "images": "CQ500 subsets",
+   "reference": "Scans sorted by fracture label; case-level midline labels copied to slices",
+   "access": "Open download (kaggle.com/datasets/vivekbavaskar/skull-fracture-ct-scans; kaggle.com/datasets/fereshtej/cq500-midline-shift-data-frames-png); license: CC0 or unknown, not the creators’ license",
+   "role": "Not counted (third-party re-uploads; no new reference)"
+  },
+  {
+   "resource": "SkullBreak and SkullFix",
+   "images": "CQ500 skulls",
+   "reference": "Synthetic skull defects; fractured scans removed",
+   "access": "SkullFix: open download; SkullBreak: data-paper links broken, available on request; license: as CQ500",
+   "role": "Not used (synthetic)",
+   "cite": [
+    "kodym2021skull"
+   ]
+  }
+ ],
+ "notes": [
+  "Open: obtainable without an account, application, approval, credentialing or a signed data use agreement, by anonymous download or after accepting click-through terms, under a license permitting research use, from the creators or from mirrors carrying their license. Of the 27 resources (28 entries; the current and earlier releases of CT-ICH are listed separately), 11 were open, 2 required a free account, 4 a signed data use agreement or an application, 3 were available only on request, 1 had been announced but not released, 5 were not released, located, reachable or verified, and 1 consisted of third-party re-uploads that add no new reference. Releases no longer available from their original host and unauthorized re-uploads were not counted (several Kaggle copies of the restricted CT-ICH release were found and are not listed). License tags are given as displayed by the hosting repository; BHSD and the MBH-Seg 2025 releases re-host images derived from the RSNA 2019 challenge, whose terms restrict redistribution, and Seg-CQ500 re-hosts CQ500 images, whose license is CC BY-NC-SA 4.0. Releases were counted when their creators provided new reference annotations; public Kaggle datasets can be downloaded without an account through Kaggle’s public interface. About 1,600 listings were screened and about 110 records examined in full; sources and queries are described in Methods. FITBIR, Federal Interagency Traumatic Brain Injury Research informatics system; ICH, intracranial hemorrhage; IPH, intraparenchymal hemorrhage; IVH, intraventricular hemorrhage; MIRA, Medical Imaging Resource for AI; RSNA, Radiological Society of North America; SAH, subarachnoid hemorrhage."
+ ]
+}

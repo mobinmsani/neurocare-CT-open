@@ -1,0 +1,575 @@
+{
+ "summary": {
+  "n": 17,
+  "capacity": {
+   "limited": 9,
+   "none": 5,
+   "adequate": 3
+  },
+  "evidence": {
+   "not evaluated": 6,
+   "external": 4,
+   "internal or transfer": 4,
+   "exploratory": 3
+  },
+  "adequate": [
+   "Any intracranial hemorrhage (scan level)",
+   "Hemorrhage side",
+   "Mass effect (presence)"
+  ],
+  "none": [
+   "Volume change on serial or postoperative scans",
+   "Midline shift magnitude (mm)",
+   "Subdural hematoma thickness (mm)",
+   "Fracture localization",
+   "Outcome or added prognostic value"
+  ],
+  "rules": {
+   "kappa_min": 0.61,
+   "positives_min": 35
+  },
+  "subtypes_adequate": [
+   "IPH",
+   "SAH"
+  ],
+  "sensitivity": [
+   {
+    "kappa_min": 0.55,
+    "positives_min": 25,
+    "adequate": 4,
+    "limited": 8,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "IVH",
+     "SAH"
+    ],
+    "changed": [
+     "Midline shift >5 mm (presence): limited -> adequate"
+    ]
+   },
+   {
+    "kappa_min": 0.55,
+    "positives_min": 35,
+    "adequate": 4,
+    "limited": 8,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": [
+     "Midline shift >5 mm (presence): limited -> adequate"
+    ]
+   },
+   {
+    "kappa_min": 0.55,
+    "positives_min": 50,
+    "adequate": 4,
+    "limited": 8,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": [
+     "Midline shift >5 mm (presence): limited -> adequate"
+    ]
+   },
+   {
+    "kappa_min": 0.6,
+    "positives_min": 25,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "IVH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.6,
+    "positives_min": 35,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.6,
+    "positives_min": 50,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.61,
+    "positives_min": 25,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "IVH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.61,
+    "positives_min": 35,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.61,
+    "positives_min": 50,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.65,
+    "positives_min": 25,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "IVH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.65,
+    "positives_min": 35,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.65,
+    "positives_min": 50,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": []
+   },
+   {
+    "kappa_min": 0.7,
+    "positives_min": 25,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.7,
+    "positives_min": 35,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.7,
+    "positives_min": 50,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.75,
+    "positives_min": 25,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.75,
+    "positives_min": 35,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.75,
+    "positives_min": 50,
+    "adequate": 1,
+    "limited": 11,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH"
+    ],
+    "changed": [
+     "Hemorrhage side: adequate -> limited",
+     "Mass effect (presence): adequate -> limited"
+    ]
+   },
+   {
+    "kappa_min": 0.61,
+    "positives_min": 35,
+    "adequate": 3,
+    "limited": 9,
+    "none": 5,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": [],
+    "scenario": "account-only resources counted"
+   },
+   {
+    "kappa_min": 0.61,
+    "positives_min": 35,
+    "adequate": 3,
+    "limited": 10,
+    "none": 4,
+    "subtypes_adequate": [
+     "IPH",
+     "SAH"
+    ],
+    "changed": [
+     "Fracture localization: none -> limited (CT-ICH earlier releases (versions 1.0.0, 1.2.0 and 1.3.0) (mirror-only): construct (partial); <35 positives; reliability unknown)"
+    ],
+    "scenario": "mirror-only releases counted"
+   }
+  ]
+ },
+ "rows": [
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Any intracranial hemorrhage (scan level)",
+   "best_open_references": "CQ500 labels; BHSD, MR-BHSD and Seg-CQ500 masks (positives only)",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 205,
+   "C5_reliability": "yes",
+   "capacity": "adequate",
+   "limiting": "\u2013",
+   "basis": "CQ500: 205 positives, 284 negatives, Fleiss kappa 0.783",
+   "evidence_here": "external",
+   "estimate": "AUC 0.81 (v2); 0.82 (v3b)",
+   "other_references": ""
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage subtype presence (5 subtypes)",
+   "best_open_references": "CQ500 labels; BHSD class masks (RSNA-derived); BHX boxes",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 13,
+   "C5_reliability": "yes",
+   "capacity": "limited",
+   "limiting": "adequate only for IPH and SAH; IVH 28 positives; SDH kappa 0.542; EDH 13 positives",
+   "basis": "positives IPH 134, SAH 60, SDH 53, IVH 28, EDH 13; kappa IPH 0.775, SAH 0.638, SDH 0.542, IVH 0.696, EDH 0.615",
+   "evidence_here": "external",
+   "estimate": "within-ICH AUC 0.72\u20130.91 (post hoc v3b)",
+   "other_references": ""
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage localization (box level)",
+   "best_open_references": "BHX boxes on CQ500",
+   "C1_construct": "partial",
+   "C2_independent": "yes",
+   "C3_negatives": "n/a",
+   "C4_positives": 6,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "construct (partial); <35 positives; reliability unknown",
+   "basis": "boxes drawn on thick slices and extrapolated to thin series; box agreement not reported; boxes in >=19 CQ500 majority-negative scans and SAH boxes in >=58 scans without a majority SAH label; EDH boxes in 6 scans",
+   "evidence_here": "external",
+   "estimate": "any v2 voxel in 17\u201377% of boxes (binary model)",
+   "other_references": ""
+  },
+  {
+   "domain": "Detection, classification and localization",
+   "endpoint": "Hemorrhage side",
+   "best_open_references": "CQ500 side labels; PHE-SICH-CT-IDS documented side",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "n/a",
+   "C4_positives": 134,
+   "C5_reliability": "yes",
+   "capacity": "adequate",
+   "limiting": "\u2013",
+   "basis": "CQ500: 134 unilateral scans, kappa left 0.690, right 0.696; PHE-SICH-CT-IDS: 111 documented unilateral",
+   "evidence_here": "external",
+   "estimate": "correct side 0.89 (CQ500); 0.97 (PHE-SICH-CT-IDS)",
+   "other_references": ""
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Voxel segmentation of hemorrhage",
+   "best_open_references": "Seg-CQ500 (independent; positives only); BHSD and MR-BHSD (RSNA-derived)",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "no",
+   "C4_positives": 43,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "no negatives; reliability unknown",
+   "basis": "Seg-CQ500: 43 usable masks, hemorrhage-positive by design (2 on majority-negative scans), one consensus mask per scan; multi-rater masks only in RSNA-derived MR-BHSD",
+   "evidence_here": "internal or transfer",
+   "estimate": "Dice 0.46 (BHSD), 0.49 (Seg-CQ500)",
+   "other_references": "BleedScene3D instance masks (CQ500 volumes) (open): limited (no negatives; reliability unknown); hemorrhage-positive volumes only; one annotation per volume; released after the probe analyses; R\u00edo Hortega aneurysmal SAH masks (open): limited (construct (partial); no negatives; reliability unknown); SAH only; hemorrhage-positive scans only; one mask per scan; TEKNOFEST-2021 two-dimensional masks (open): limited (construct (partial); negatives unknown; positives unknown; reliability unknown); two-dimensional slices, not volumes"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Total hemorrhage volume",
+   "best_open_references": "As voxel segmentation",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "no",
+   "C4_positives": 43,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "no negatives; reliability unknown",
+   "basis": "as voxel segmentation; 36 BHSD test scans >=30 mL",
+   "evidence_here": "internal or transfer",
+   "estimate": "ICC 0.86 (BHSD); 0.10 or 0.68 (Seg-CQ500)",
+   "other_references": "BleedScene3D instance masks (CQ500 volumes) (open): limited (no negatives; reliability unknown); hemorrhage-positive volumes only; released after the probe analyses; R\u00edo Hortega aneurysmal SAH masks (open): limited (construct (partial); no negatives; reliability unknown); SAH only; hemorrhage-positive scans only"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Compartment volume (intraparenchymal, epidural)",
+   "best_open_references": "BleedScene3D instance masks with subtype attributes (CQ500 volumes); BHSD class masks (RSNA-derived)",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "n/a",
+   "C4_positives": 3,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "<35 positives; reliability unknown",
+   "basis": "BleedScene3D: IPH in 96 and EDH in 3 of the 154 CQ500 volumes whose images are open; annotation reliability not reported; released after the probe analyses; its INSTANCE 2022 and CT-ICH volumes (IPH 112, EDH 8) have images that need an agreement. BHSD class masks are RSNA-derived: IPH in 63 test scans (14 in the 30-80 mL band), EDH in 13 (one >30 mL)",
+   "evidence_here": "internal or transfer",
+   "estimate": "IPH ICC 0.87; kappa 0.62 at 30 mL (post hoc v3b)",
+   "other_references": "BHSD class masks (open): limited (not independent of RSNA 2019; <35 positives; reliability unknown); RSNA 2019-derived; IPH in 63 and EDH in 13 test scans"
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Volume change on serial or postoperative scans",
+   "best_open_references": "None",
+   "C1_construct": "no",
+   "C2_independent": "n/a",
+   "C3_negatives": "n/a",
+   "C4_positives": "",
+   "C5_reliability": "n/a",
+   "capacity": "none",
+   "limiting": "no open reference",
+   "basis": "no open serial or postoperative scans with voxel references (one BHSD patient contributed two training scans)",
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified",
+   "other_references": ""
+  },
+  {
+   "domain": "Segmentation and volume",
+   "endpoint": "Perihematomal edema volume",
+   "best_open_references": "PHE-SICH-CT-IDS edema masks (one hospital)",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "n/a",
+   "C4_positives": 112,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "reliability unknown",
+   "basis": "one expert mask per patient; agreement not reported; spontaneous basal-ganglia ICH only",
+   "evidence_here": "internal or transfer",
+   "estimate": "Dice 0.34 (37 held-out patients)",
+   "other_references": ""
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Midline shift >5 mm (presence)",
+   "best_open_references": "CQ500 labels; BleedScene3D shift relation (hemorrhage-positive volumes only)",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 65,
+   "C5_reliability": "no",
+   "capacity": "limited",
+   "limiting": "reliability kappa below 0.61",
+   "basis": "65 positives; kappa 0.595; 38% of positives decided 2\u20131",
+   "evidence_here": "exploratory",
+   "estimate": "CSF-offset distance AUC 0.89 (ranking only)",
+   "other_references": ""
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Mass effect (presence)",
+   "best_open_references": "CQ500 labels",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 127,
+   "C5_reliability": "yes",
+   "capacity": "adequate",
+   "limiting": "\u2013",
+   "basis": "127 positives; kappa 0.670",
+   "evidence_here": "exploratory",
+   "estimate": "AUC 0.81\u20130.85 (CSF-offset distance, volume)",
+   "other_references": ""
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Midline shift magnitude (mm)",
+   "best_open_references": "None openly downloadable",
+   "C1_construct": "no",
+   "C2_independent": "n/a",
+   "C3_negatives": "n/a",
+   "C4_positives": "",
+   "C5_reliability": "n/a",
+   "capacity": "none",
+   "limiting": "no open reference",
+   "basis": "millimeter measurements for 509 RSNA scans and 92 CQ500 scans with shift (one neurosurgeon) are available only on request; BleedScene3D records midline shift only as a categorical relation, with no millimeter value",
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified",
+   "other_references": ""
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Subdural hematoma thickness (mm)",
+   "best_open_references": "None",
+   "C1_construct": "no",
+   "C2_independent": "n/a",
+   "C3_negatives": "n/a",
+   "C4_positives": "",
+   "C5_reliability": "n/a",
+   "capacity": "none",
+   "limiting": "no open reference",
+   "basis": "SDH masks and labels exist, but no thickness measurements",
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified",
+   "other_references": ""
+  },
+  {
+   "domain": "Mass effect and midline",
+   "endpoint": "Basal cisterns, ventricles, herniation",
+   "best_open_references": "BleedScene3D ventricle-system masks and ventricle-asymmetry relation (CQ500 volumes)",
+   "C1_construct": "partial",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 56,
+   "C5_reliability": "unknown",
+   "capacity": "limited",
+   "limiting": "construct (partial); reliability unknown",
+   "basis": "ventricle-system masks and a binary hemorrhage-induced ventricle-asymmetry relation (present in 56) in the 154 CQ500 volumes whose images are open; the other BleedScene3D volumes are RSNA-derived or have images that need an account or agreement; no cistern or herniation grading; annotation reliability not reported; released 23 Oct 2026, after the probe analyses",
+   "evidence_here": "not evaluated",
+   "estimate": "ventricle masks and asymmetry relation only (BleedScene3D)",
+   "other_references": ""
+  },
+  {
+   "domain": "Fracture",
+   "endpoint": "Skull fracture (scan level)",
+   "best_open_references": "CQ500 labels",
+   "C1_construct": "yes",
+   "C2_independent": "yes",
+   "C3_negatives": "yes",
+   "C4_positives": 39,
+   "C5_reliability": "no",
+   "capacity": "limited",
+   "limiting": "reliability kappa below 0.61",
+   "basis": "39 positives (calvarial 34); kappa 0.437 (calvarial 0.451)",
+   "evidence_here": "exploratory",
+   "estimate": "pilot stopped (AUC 0.51)",
+   "other_references": "NeuroVision-CT image-level classes (open): limited (construct (partial); positives unknown; reliability unknown); two-dimensional images, one physician"
+  },
+  {
+   "domain": "Fracture",
+   "endpoint": "Fracture localization",
+   "best_open_references": "None openly downloadable",
+   "C1_construct": "no",
+   "C2_independent": "n/a",
+   "C3_negatives": "n/a",
+   "C4_positives": "",
+   "C5_reliability": "n/a",
+   "capacity": "none",
+   "limiting": "no open reference",
+   "basis": "CQ500 records fracture per scan only; slice-level fracture labels (PhysioNet CT-ICH, 22 fracture-positive patients) require a signed data use agreement; earlier CC BY 4.0 releases, no longer available from PhysioNet, persist in third-party mirrors and were not counted (counting them would rate this endpoint limited: slice level only, 22 positives)",
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified",
+   "other_references": ""
+  },
+  {
+   "domain": "Outcome",
+   "endpoint": "Outcome or added prognostic value",
+   "best_open_references": "None",
+   "C1_construct": "no",
+   "C2_independent": "n/a",
+   "C3_negatives": "n/a",
+   "C4_positives": "",
+   "C5_reliability": "n/a",
+   "capacity": "none",
+   "limiting": "no open reference",
+   "basis": "no open head CT resource linked to functional outcome identified",
+   "evidence_here": "not evaluated",
+   "estimate": "no open reference identified",
+   "other_references": ""
+  }
+ ]
+}

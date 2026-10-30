@@ -1,0 +1,88 @@
+{
+ "n": 154,
+ "majority_ich": 150,
+ "ich_votes": {
+  "1": 4,
+  "2": 18,
+  "3": 132
+ },
+ "agreement": [
+  {
+   "label": "IPH",
+   "bleedscene_pos": 96,
+   "cq500_majority_pos": 101,
+   "both": 90,
+   "bleedscene_only": 6,
+   "cq500_only": 11,
+   "kappa": 0.7608258724648274
+  },
+  {
+   "label": "IVH",
+   "bleedscene_pos": 37,
+   "cq500_majority_pos": 25,
+   "both": 23,
+   "bleedscene_only": 14,
+   "cq500_only": 2,
+   "kappa": 0.6799168615224732
+  },
+  {
+   "label": "SAH",
+   "bleedscene_pos": 65,
+   "cq500_majority_pos": 46,
+   "both": 43,
+   "bleedscene_only": 22,
+   "cq500_only": 3,
+   "kappa": 0.6535900665826885
+  },
+  {
+   "label": "SDH",
+   "bleedscene_pos": 56,
+   "cq500_majority_pos": 39,
+   "both": 37,
+   "bleedscene_only": 19,
+   "cq500_only": 2,
+   "kappa": 0.6848567530695772
+  },
+  {
+   "label": "EDH",
+   "bleedscene_pos": 3,
+   "cq500_majority_pos": 8,
+   "both": 2,
+   "bleedscene_only": 1,
+   "cq500_only": 6,
+   "kappa": 0.34507897934386483
+  },
+  {
+   "label": "midline shift (relation) vs MLS >5 mm",
+   "bleedscene_pos": 48,
+   "cq500_majority_pos": 54,
+   "both": 43,
+   "bleedscene_only": 5,
+   "cq500_only": 11,
+   "kappa": 0.7658684910680349
+  }
+ ],
+ "shift_by_mls_votes": {
+  "0": {
+   "n": 61,
+   "with_relation": 1
+  },
+  "1": {
+   "n": 39,
+   "with_relation": 4
+  },
+  "2": {
+   "n": 23,
+   "with_relation": 14
+  },
+  "3": {
+   "n": 31,
+   "with_relation": 29
+  }
+ },
+ "relations_total": {
+  "shift": 48,
+  "flows": 37,
+  "asym": 56
+ }
+}

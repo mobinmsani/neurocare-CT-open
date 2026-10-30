@@ -1,0 +1,14 @@
+{
+ "bhx": {
+  "file": "1_Initial_Manual_Labeling.csv",
+  "rows": 6283,
+  "unmatched_rows": 0,
+  "scans_with_boxes": 226
+ },
+ "bhxall": {
+  "file": "2_Extrapolation_to_All_Series.csv",
+  "rows": 39668,
+  "unmatched_rows": 0,
+  "scans_with_boxes": 226
+ }
+}

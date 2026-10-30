@@ -1,0 +1,13 @@
+{
+ "task": "perihematomal edema (PHE) segmentation, PHE-SICH-CT-IDS SubdatasetA (CC BY 4.0), expert edema labels",
+ "split": "patient-level: 112 geometry-matched patients (8 image/label affine-discordant excluded before training, not repaired), sorted, shuffled seed 20261021; 75 train / 37 test",
+ "model": "UNetV2 (9 ch, 3 windows x 3 slices), input 160 from cached 256x256 arrays",
+ "epochs": 20,
+ "lr": 0.002,
+ "sampling": "all edema-positive slices + equal random negatives",
+ "augmentation": "flip, affine rot+-10/scale 0.9-1.1, noise",
+ "checkpoint": "final epoch, threshold 0.5, no test-based selection",
+ "evaluation": "per-patient Dice, volume MAE/ICC/Bland-Altman on 40 test patients at cached 256x256 grid (in-plane downsampled); volumes use assumed-mm header geometry scaled to grid",
+ "locked_at": "2026-10-21 before edema training",
+ "amendment": "2026-10-21: first launch included discordant cases; stopped after <1 epoch, before any test evaluation; relaunched with exclusion"
+}

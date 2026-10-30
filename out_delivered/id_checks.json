@@ -1,0 +1,32 @@
+{
+ "train": {
+  "n": 92,
+  "all_match_pattern": true,
+  "unique_patient_tokens": 91,
+  "unique_study_tokens": 92
+ },
+ "test": {
+  "n": 96,
+  "all_match_pattern": true,
+  "unique_patient_tokens": 96,
+  "unique_study_tokens": 96
+ },
+ "mrbhsd": {
+  "n": 43,
+  "all_match_pattern": true,
+  "unique_patient_tokens": 43,
+  "unique_study_tokens": 43
+ },
+ "patient_overlap_train_test": 0,
+ "scan_overlap_train_test": 0,
+ "patient_overlap_mr_train": 0,
+ "patient_overlap_mr_test": 0,
+ "scan_overlap_mr_bhsd": 0,
+ "study_overlap_any": 0,
+ "test_patients_multi": {},
+ "train_patients_multi": {
+  "2db7ee14": 2
+ },
+ "mr_patients_multi": {},
+ "v1_ids_eq_qc_test": true
+}

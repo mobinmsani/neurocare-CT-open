@@ -1,0 +1,203 @@
+{
+ "summary": {
+  "faults": 6,
+  "discordances": 10,
+  "conventions": 3,
+  "unusable_pairs": 27,
+  "released_pairs": 902,
+  "geometry_faults": 25,
+  "geometry_den": 411
+ },
+ "rows": [
+  {
+   "kind": "fault",
+   "resource": "BHSD",
+   "item": "image-mask geometry discordant (training split)",
+   "n": 4,
+   "denominator": 192,
+   "handling": "excluded",
+   "effect": "training set 92 of 96 scans",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "fault",
+   "resource": "MR-BHSD",
+   "item": "no geometry-concordant mask from all three raters",
+   "n": 5,
+   "denominator": 48,
+   "handling": "excluded",
+   "effect": "43 scans analyzed",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "fault",
+   "resource": "Seg-CQ500",
+   "item": "image-mask geometry or integrity check failed",
+   "n": 8,
+   "denominator": 51,
+   "handling": "excluded",
+   "effect": "43 scans analyzed",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "fault",
+   "resource": "PHE-SICH-CT-IDS",
+   "item": "mask affine reverses an in-plane axis relative to the image",
+   "n": 8,
+   "denominator": 120,
+   "handling": "excluded without repair",
+   "effect": "112 patients analyzed",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "fault",
+   "resource": "CQ500",
+   "item": "unreadable archive (1) or no non-contrast soft-tissue series (1)",
+   "n": 2,
+   "denominator": 491,
+   "handling": "excluded",
+   "effect": "489 scans analyzed",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "fault",
+   "resource": "BHSD",
+   "item": "stored intensities not HU-encoded (test split)",
+   "n": 1,
+   "denominator": 96,
+   "handling": "analyzed; QC gate abstains",
+   "effect": "v1 volume ICC 0.054 with the scan, 0.910 without it",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "Seg-CQ500 vs CQ500",
+   "item": "hemorrhage mask on a scan that the CQ500 reader majority labeled negative",
+   "n": 2,
+   "denominator": 43,
+   "handling": "analyzed; reported with and without CT-108",
+   "effect": "CT-108: reference 450.8 mL, one of three readers positive, v2 8.0 mL; v2 volume ICC 0.104 with CT-108, 0.677 without; BLAST-CT 0.028 and 0.302",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BHX vs CQ500",
+   "item": "scans with BHX boxes that the CQ500 reader majority labeled negative",
+   "n": 29,
+   "denominator": 226,
+   "handling": "reported; not adjudicated",
+   "effect": "5 of them without any positive read; 8 majority-positive scans without boxes; box-level localization measured against boxes that the CQ500 majority does not support",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BHX vs CQ500",
+   "item": "scans with subarachnoid boxes without the CQ500 majority SAH label",
+   "n": 58,
+   "denominator": 118,
+   "handling": "reported; not adjudicated",
+   "effect": "118 scans with boxes vs 60 majority-positive scans; 35 of the 58 without any positive SAH read; 0 majority-positive scans without boxes",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BHX vs CQ500",
+   "item": "scans with subdural boxes without the CQ500 majority SDH label",
+   "n": 42,
+   "denominator": 90,
+   "handling": "reported; not adjudicated",
+   "effect": "90 scans with boxes vs 53 majority-positive scans; 16 of the 42 without any positive SDH read; 5 majority-positive scans without boxes",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BHX vs CQ500",
+   "item": "scans with intraventricular boxes without the CQ500 majority IVH label",
+   "n": 17,
+   "denominator": 43,
+   "handling": "reported; not adjudicated",
+   "effect": "43 scans with boxes vs 28 majority-positive scans; 6 of the 17 without any positive IVH read; 2 majority-positive scans without boxes",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BHX vs CQ500",
+   "item": "scans with chronic boxes without the CQ500 majority chronic bleed label",
+   "n": 17,
+   "denominator": 32,
+   "handling": "reported; not adjudicated",
+   "effect": "32 scans with boxes vs 19 majority-positive scans; 8 of the 17 without any positive chronic bleed read; 4 majority-positive scans without boxes",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BleedScene3D vs CQ500",
+   "item": "volumes curated as hemorrhage-positive that the CQ500 reader majority labeled negative",
+   "n": 4,
+   "denominator": 154,
+   "handling": "reported; not adjudicated (post hoc)",
+   "effect": "BleedScene3D entered only the capacity rubric and this comparison",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BleedScene3D vs CQ500",
+   "item": "scans with a BleedScene3D IVH flag without the CQ500 majority IVH label",
+   "n": 14,
+   "denominator": 37,
+   "handling": "reported; not adjudicated (post hoc)",
+   "effect": "37 BleedScene3D-positive vs 25 majority-positive scans among the 154 shared; Cohen kappa 0.68",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BleedScene3D vs CQ500",
+   "item": "scans with a BleedScene3D SAH flag without the CQ500 majority SAH label",
+   "n": 22,
+   "denominator": 65,
+   "handling": "reported; not adjudicated (post hoc)",
+   "effect": "65 BleedScene3D-positive vs 46 majority-positive scans among the 154 shared; Cohen kappa 0.65",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "discordance",
+   "resource": "BleedScene3D vs CQ500",
+   "item": "scans with a BleedScene3D SDH flag without the CQ500 majority SDH label",
+   "n": 19,
+   "denominator": 56,
+   "handling": "reported; not adjudicated (post hoc)",
+   "effect": "56 BleedScene3D-positive vs 39 majority-positive scans among the 154 shared; Cohen kappa 0.68",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "convention",
+   "resource": "MR-BHSD",
+   "item": "no rater marked hemorrhage (1 scan); one or two raters left the mask empty (2 scans; in one, the three raters marked 0, 5.4 and 52.4 mL)",
+   "n": 3,
+   "denominator": 43,
+   "handling": "Dice set to 1 when both masks are empty, as in the original analysis; results without these comparisons also given",
+   "effect": "v1 Dice 0.399 with, 0.384 without the all-empty scan; rater-rater 0.755 and 0.747 without 4 jointly empty pairs",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "convention",
+   "resource": "CQ500",
+   "item": "follow-up scans of the same patient may be included (no patient identifier released)",
+   "n": null,
+   "denominator": 491,
+   "handling": "not excluded; scan is the unit of analysis",
+   "effect": "confidence intervals may be too narrow if scans cluster within patients",
+   "model_dependent": "no"
+  },
+  {
+   "kind": "convention",
+   "resource": "BHX",
+   "item": "boxes drawn on thick slices and extrapolated to thin series; a box counts as localized if it contains one predicted voxel",
+   "n": null,
+   "denominator": null,
+   "handling": "lenient criterion; intervals ignore clustering of boxes within scans",
+   "effect": "hit rates are upper bounds of localization accuracy",
+   "model_dependent": "no"
+  }
+ ]
+}

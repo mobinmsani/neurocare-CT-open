@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived data, please cite this release and, once published, the article."
+type: software
+title: "What open-access head CT references can validate: code and derived data (version 1.0.0)"
+authors:
+  - family-names: Motamedi
+    given-names: Alireza
+    affiliation: "Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran"
+  - family-names: Mobadersani
+    given-names: Mobin
+    affiliation: "Faculty of Medicine, Tabriz University of Medical Sciences, Tabriz, Iran"
+    orcid: "https://orcid.org/0009-0005-1869-6098"
+    email: mobinmsani@gmail.com
+  - family-names: Soleimanpour
+    given-names: Hassan
+    affiliation: "Emergency and Trauma Care Research Center, Imam Reza General Hospital, Tabriz University of Medical Sciences, Tabriz, Iran"
+version: "1.0.0"
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/mobinmsani/neurocare-ct-open-references"
+abstract: "Code, per-scan inputs and analysis outputs that regenerate every reported value and figure of the article \"Open-access head CT reference standards for intracranial hemorrhage artificial intelligence: adequate for detection, insufficient for measurement\". No CT images, masks or model weights are included."
+keywords:
+  - "intracranial hemorrhage"
+  - "computed tomography"
+  - "artificial intelligence"
+  - "external validation"
+  - "reference standard"
+  - "open data"
+  - "CQ500"
+  - "inter-reader agreement"

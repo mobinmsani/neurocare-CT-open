@@ -1,0 +1,5 @@
+{"date":"2026-10-21","observation":"prespecified v2 (with intracranial post-mask) mean Dice 0.390 < v1 0.436 on BHSD test",
+ "posthoc_ablation":"v2 without post-mask on BHSD test: mean Dice 0.461 (selected AFTER viewing BHSD test results)",
+ "decision":"v2-nomask designated candidate; BHSD test result for it is post hoc and optimistic",
+ "confirmation":"v2-nomask evaluated unchanged on Seg-CQ500 (43 scans; not used for this decision) and PHE-SICH laterality (111 patients)",
+ "locked_before":"Seg-CQ500 no-postmask inference"}

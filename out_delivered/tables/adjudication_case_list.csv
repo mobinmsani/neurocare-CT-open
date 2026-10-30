@@ -1,0 +1,82 @@
+scan,stratum,description,pool_size
+CQ500-CT-108,A,Seg-CQ500 mask on a majority-negative scan,2
+CQ500-CT-187,A,Seg-CQ500 mask on a majority-negative scan,2
+CQ500-CT-57,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-102,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-111,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-176,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-224,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-228,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-247,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-256,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-380,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-391,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-393,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-398,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-400,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-461,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-483,B,BHX SAH box without a majority SAH label,57
+CQ500-CT-8,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-12,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-136,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-139,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-285,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-305,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-312,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-340,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-351,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-371,C,BHX SDH box without a majority SDH label,39
+CQ500-CT-109,D,BHX IVH box without a majority IVH label,13
+CQ500-CT-245,D,BHX IVH box without a majority IVH label,13
+CQ500-CT-345,D,BHX IVH box without a majority IVH label,13
+CQ500-CT-403,D,BHX IVH box without a majority IVH label,13
+CQ500-CT-489,D,BHX IVH box without a majority IVH label,13
+CQ500-CT-0,E,BHX box on a majority ICH-negative scan,19
+CQ500-CT-29,E,BHX box on a majority ICH-negative scan,19
+CQ500-CT-31,E,BHX box on a majority ICH-negative scan,19
+CQ500-CT-288,E,BHX box on a majority ICH-negative scan,19
+CQ500-CT-414,E,BHX box on a majority ICH-negative scan,19
+CQ500-CT-15,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-68,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-87,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-144,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-277,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-278,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-362,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-397,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-426,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-430,F,"Majority ICH-positive, decided 2-1",33
+CQ500-CT-11,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-63,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-66,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-67,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-169,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-205,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-284,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-356,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-372,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-374,G,"Majority ICH-negative, one positive read",30
+CQ500-CT-73,H,"Unanimous ICH-negative, public model positive (probability >= 0.5)",4
+CQ500-CT-258,H,"Unanimous ICH-negative, public model positive (probability >= 0.5)",4
+CQ500-CT-332,H,"Unanimous ICH-negative, public model positive (probability >= 0.5)",4
+CQ500-CT-390,H,"Unanimous ICH-negative, public model positive (probability >= 0.5)",4
+CQ500-CT-59,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-92,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-126,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-203,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-326,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-346,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-376,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-392,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-399,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-402,I,Control: unanimous positive with BHX boxes,149
+CQ500-CT-70,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-76,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-81,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-105,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-145,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-223,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-229,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-306,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-468,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
+CQ500-CT-472,J,"Control: unanimous negative without BHX boxes, public model negative (probability < 0.5)",234
